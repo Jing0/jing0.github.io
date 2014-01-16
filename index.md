@@ -5,4 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Welcome to Jing0's blog!
+
+![image](http://jing0-github-io.qiniudn.com/QR.png)
+
