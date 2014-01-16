@@ -3,7 +3,7 @@ layout: page
 title: Say Hello to Jekyll & Github Pages!
 category: Think
 tagline: --read & think
-tags : [Jekyll,Github Pages]
+tags : [Jekyll,Github,Pages]
 ---
 {% include JB/setup %}
 
