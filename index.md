@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Say Hello to My New Blog!
+title: Welcome to Jing0's blog!
 tagline: --read & think
 ---
 {% include JB/setup %}
 
-Welcome to Jing0's blog!
+####Blog
+** Recent Posts **
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -14,6 +15,15 @@ Welcome to Jing0's blog!
 <a href="{{ post.url }}">Read more</a>
 {% endfor %}
 </ul>
+####Project
+* [Web Terminal](http://web-terminal.qiniudn.com/)-- a Terminal Simulator based on web page
+* [Happy New Year](http://happy-new-year-from-jackie.u.qiniudn.com/)-- a web page to celebrate new year's coming
+* [Web Bookmarks](http://mybookmarks.u.qiniudn.com/)-- just a web page for myself
+
+####To-do
+* ~~Top Secret~~
+
+
 
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
 
