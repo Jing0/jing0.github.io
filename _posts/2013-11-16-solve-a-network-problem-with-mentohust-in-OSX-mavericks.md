@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 解决升级到OSX Mavericks后锐捷客户端无法使用的问题
+category: Mac
 tagline: --read & think
 tags : [Mac,App]
 ---
