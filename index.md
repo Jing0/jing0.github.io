@@ -23,6 +23,12 @@ tagline: --read & think
 ####To-do
 * ~~Top Secret~~
 
+####Contact
+* [Email](mailto:j.kuo2012@gmail.com)
+* [Github](http://jing0.github.com)
+* [Facebook](https://www.facebook.com/jackie.kuo.18)
+* [Twitter](https://twitter.com/jok3rME)
+
 
 
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
