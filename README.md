@@ -1,6 +1,6 @@
 ##Contact:
 * [Jing0.github.io](http://jing0.github.io/)
-* j.kuo2012@gmail.com
+* [Email](mailto:j.kuo2012@gmail.com)
 
 ##Projects:
 * [Web Terminal](https://github.com/Jing0/Web-Terminal)-- a Terminal Simulator based on web page
