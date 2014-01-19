@@ -116,7 +116,7 @@ Gnu Emacs 20.2.2中Emacs Doctor源代码：[点击查看](http://www.csee.umbc.e
 
 然后”./simple”运行，尝试一下，本来感觉无聊的过程却发现亮点在最后。。。 感觉这个比Emacs Doctor的回答智能多了！
 
-![image](http://i0.wp.com/pic.yupoo.com/jok3r/DlYAul52/medish.jpg?resize=600%2C450)
+![image](http://pic.yupoo.com/jok3r/DlYAul52/medish.jpg?resize=600%2C450)
 
 参考资料：
 
