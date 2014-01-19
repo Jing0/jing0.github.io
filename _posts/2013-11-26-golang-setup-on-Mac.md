@@ -7,7 +7,7 @@ tags : [Go,Mac,Brew,terminal]
 ---
 {% include JB/setup %}
 
-![image](http://i2.wp.com/pic.yupoo.com/jok3r/Dlb48L3V/medish.jpg?resize=200%2C120)
+![image](http://pic.yupoo.com/jok3r/Dlb48L3V/medish.jpg?resize=200%2C120)
 
 一直对Google的Go很好奇，最近看到Go的开发团队专门做了[Go tour](https://code.google.com/p/go-tour)来帮助开发者学习，就决定尝试下。
 

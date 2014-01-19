@@ -13,7 +13,7 @@ tags : [Algorithm,Mac,terminal,Emacs,Trivia]
 
 如下
 
-![image](http://i0.wp.com/pic.yupoo.com/jok3r/DlYAuMoy/medish.jpg?resize=600%2C459)
+![image](http://pic.yupoo.com/jok3r/DlYAuMoy/medish.jpg?resize=600%2C459)
 
 ### 2.如何找到她？
 
@@ -27,7 +27,7 @@ Emacs中输入“xdoctor”即可。Terminal中需要先输入“Emacs”，再�
 
 下面是我和她的一段对话。
 
-![image](http://i0.wp.com/pic.yupoo.com/jok3r/DlYAuZHv/medish.jpg?resize=600%2C459)
+![image](http://pic.yupoo.com/jok3r/DlYAuZHv/medish.jpg?resize=600%2C459)
 
 ### 4.Emacs Doctor到底什么来头？
 
