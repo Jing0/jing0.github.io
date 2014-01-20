@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All Over Again
+title: All over again
 category: Think
 tagline: --read & think
 tags : [Blog,Read,Think,Digest]
@@ -25,7 +25,8 @@ tags : [Blog,Read,Think,Digest]
 
 突然想起很久以前看过的一篇文章[How Github destroyed two years of work with a new favicon](http://blog.nyaruka.com/how-github-destroyed-two-years-of-work-with-a)。这是一个很有经验的出色设计师写的（看看他们的网站就知道了），但是现在看起来却可笑无比。11年，Github更换了网站的Favicon，由原来的`"git"`换成了现在的`"Octocat"`。这个设计师在文章中就吐槽说新的Favicon使他在多个标签页里很难快速找到Github，然后估计出每个人都需要15s来适应这种改变，接着他开始认真地计算，最后得出一个结论，Github一个Favicon的改变浪费了所有人2年的时间！
 
-好吧，不知道那个设计师现在来看那篇文章是什么感觉，是不是还像三年前那样义愤填膺？当新的设计理念出现时，它席卷整个世界的速度如此之快，以至于普通人是完全没有办法阻拦的。当Google又推出新的设计风格时（BTW，现在你可以在Google.com.hk看到它的各种产品展现出至少三种不同时期的设计风格，可能瓷器国独占），当Metro界面推出时，当Windows的Logo改变时，当iOS7发布时，甚至当目睹了Android从1.X过渡到4.X中间几种差别很大的转变时，那位愤青设计师是不是气得要爆炸？
+好吧，不知道那个设计师现在再看那篇自己写的文章是什么感觉，是不是还像三年前那样义愤填膺？**当新的设计理念出现时，它席卷整个世界的速度如此之快，以至于普通人是完全没有办法阻拦的。**当Google又推出新的设计风格时（BTW，现在你可以在Google.com.hk看到它的各种产品展现出至少三种不同时期的设计风格，可能瓷器国独占），当Metro界面推出时，当Windows的Logo改变时，当iOS7发布时，甚至当目睹了Android从1.X过渡到4.X中间几种差别很大的转变时，那位愤青设计师是不是气得要爆炸？
 
 设计风格是会不断改变的，人的审美也是，讨论“是人的审美改变了设计风格还是设计风格改变了审美”就像是在讨论“先有鸡还是先有蛋”的问题。
-我们都没有办法使所有人信服自己的理论，我们能做的很少，要么顺应时代适应这种改变，要么获取能力改变时代。
+
+**我们都没有办法使所有人信服自己的理论，我们能做的很少，要么顺应时代适应这种改变，要么获取能力改变时代。**
