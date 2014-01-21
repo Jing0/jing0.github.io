@@ -7,7 +7,7 @@ tags : [Blog,Read,Think,Digest]
 ---
 {% include JB/setup %}
 
-2013年，我我最喜欢的博文就是豌豆荚创始人王俊煜写的[《从头再来》](http://blog.wangjunyu.net/1144)。
+2013年，我最喜欢的博文就是豌豆荚创始人王俊煜写的[《从头再来》](http://blog.wangjunyu.net/1144)。
 
 这篇文章我是反反复复看了很多遍的，因为有一些地方确实值得深思。下面节选几个我最喜欢的部分：
 
