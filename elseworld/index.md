@@ -9,7 +9,7 @@ tagline: --I am crazy,you know
 
 ### Books
 
-* ONE: nice to meet you		2014-1-22
+* <del>ONE: nice to meet you</del>		2014-1-22
 * The Catcher in the Rye		2014-1-25
 * Hackers and Painters
 
