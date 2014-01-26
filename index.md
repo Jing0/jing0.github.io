@@ -19,10 +19,6 @@ tagline: --read & think
 * [Happy New Year](http://happy-new-year-from-jackie.u.qiniudn.com/)-- a web page to celebrate new year's coming
 * [Web Bookmarks](http://mybookmarks.u.qiniudn.com/)-- just a web page for myself
 
-## To-Do
-
-* ~~Top Secret~~
-
 ## Contact Me
 
 * [Email](mailto:j.kuo2012@gmail.com)
