@@ -7,13 +7,12 @@ tagline: --I am crazy,you know
     
 ## !! UNDER CONSTRUCTION !!
 
-## Books
+### Books
 
-* <del>ONE: nice to meet you</del>		2014-1-22
-* <del>The Catcher in the Rye</del>		2014-1-25
+* ONE: nice to meet you		2014-1-22
+* The Catcher in the Rye		2014-1-25
 * Hackers and Painters
 
-## Movies
+### Movies
 
-* <del>Fantastic Mr. Fox</del>		2014-1-26
-*
+* Fantastic Mr. Fox		2014-1-26
