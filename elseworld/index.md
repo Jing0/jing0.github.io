@@ -10,10 +10,10 @@ tagline: --I am crazy,you know
 
 <h3>Books</h3>
 <ul>
-<li><del>ONE: nice to meet you</del>    2014-1-22</li>
-<li><del>The Catcher in the Rye</del> J.D.Salinger    2014-1-25</li>
-<li><del>Superman: Red Son</del>    2014-1-27</li>
-<li>Hackers and Painters</li>
+<li>2014-01-22    <del>ONE: nice to meet you</del></li>
+<li>2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger</li>
+<li>2014-01-27    <del>Superman: Red Son</del></li>
+<li>2014-02-03    <del>Hackers and Painters</del> Paul Graham</li>
 </ul>
 
 <h3>Movies</h3>
