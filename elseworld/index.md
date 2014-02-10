@@ -5,18 +5,19 @@ tagline: --I am crazy,you know
 ---
 {% include JB/setup %}
     
-<h2> !! UNDER CONSTRUCTION !!</h2>
-<img src="http://jing0-github-io.qiniudn.com/superman-elseworld-coder.png">
+## !! UNDER CONSTRUCTION !!
+![Sperman:Coder--My Draft!!](http://jing0-github-io.qiniudn.com/superman-elseworld-coder.png)
 
-<h3>Books</h3>
-<ul>
-<li>2014-01-22    <del>ONE: nice to meet you</del></li>
-<li>2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger</li>
-<li>2014-01-27    <del>Superman: Red Son</del></li>
-<li>2014-02-03    <del>Hackers and Painters</del> Paul Graham</li>
-</ul>
+### Books
 
-<h3>Movies</h3>
+* 2014-01-22    <del>ONE: nice to meet you</del>
+* 2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger
+* 2014-01-27    <del>Superman: Red Son</del>
+* 2014-02-03    <del>Hackers and Painters</del> Paul Graham
+
+### Movies
+
+<a href="http://myfavmovies.qiniudn.com/" target="_blank">My Favorite Movies</a>
 
 <ul>
 <li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0093389/" target="_blank">The Last Emperor</a></del>    2014-1-16</li>
@@ -30,5 +31,6 @@ tagline: --I am crazy,you know
 </ul>
 
 <br>
-<img src="http://jing0-github-io.qiniudn.com/red%20son.jpg">
+![Superman:Red Son](http://jing0-github-io.qiniudn.com/red%20son.jpg)
+
 高举社会主义大旗，建设社会主义博客<sup>永不被qiang</sup><br>Hold high the banner of socialism and build a socialist blog!
