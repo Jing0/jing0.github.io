@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 解决MacBook Pro电池无法充电
+title: 解决MacBook Pro电池无法充电的问题
 category: life
 tagline: --read & think
 tags : [MagSafe,Mac]
