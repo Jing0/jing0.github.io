@@ -22,7 +22,7 @@ tagline: --read & think
 ## Contact Me
 
 * [Email](mailto:j.kuo2012@gmail.com)
-* [Github](http://jing0.github.com)
+* [Github](https://github.com/jing0)
 * [Facebook](https://www.facebook.com/jackie.kuo.18)
 * [Twitter](https://twitter.com/jok3rME)
 
