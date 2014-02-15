@@ -8,6 +8,16 @@ tagline: --I am crazy,you know
 ## !! UNDER CONSTRUCTION !!
 ![Sperman:Coder--My Draft!!](http://jing0-github-io.qiniudn.com/superman-elseworld-coder.png)
 
+>My wings are tiny，
+
+>But I have always dreamed of flying.
+
+<audio controls="controls" height="100" width="100">
+			<source src="test.mp3" type="audio/mp3" />
+			<source src="test.ogg" type="audio/ogg" />
+			<embed height="100" width="100" src="test.mp3" />
+</audio>
+
 ### &hearts;My Favorite
 
 <a href="http://myfavtv.qiniudn.com" target="_blank">My Favorite TV Series</a>
