@@ -10,7 +10,7 @@ tagline: --I am crazy,you know
 
 ### &hearts;My Favorite
 
-<a href="myfavtv.qiniudn.com" target="_blank">My Favorite TV Series</a>
+<a href="http://myfavtv.qiniudn.com" target="_blank">My Favorite TV Series</a>
 
 <a href="http://myfavmovies.qiniudn.com/" target="_blank">My Favorite Movies</a>
 
