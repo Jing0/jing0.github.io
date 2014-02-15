@@ -8,6 +8,12 @@ tagline: --I am crazy,you know
 ## !! UNDER CONSTRUCTION !!
 ![Sperman:Coder--My Draft!!](http://jing0-github-io.qiniudn.com/superman-elseworld-coder.png)
 
+### &hearts;My Favorite
+
+<a href="myfavtv.qiniudn.com" target="_blank">My Favorite TV Series</a>
+
+<a href="http://myfavmovies.qiniudn.com/" target="_blank">My Favorite Movies</a>
+
 ### Books
 
 * 2014-01-22    <del>ONE: nice to meet you</del>
@@ -16,8 +22,6 @@ tagline: --I am crazy,you know
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
 
 ### Movies
-
-<a href="http://myfavmovies.qiniudn.com/" target="_blank">My Favorite Movies</a>
 
 <ul>
 <li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0093389/" target="_blank">The Last Emperor</a></del>    2014-1-16</li>
