@@ -10,7 +10,7 @@ tagline: --I am crazy,you know
 
 >My wings are tiny，
 
->But I have always dreamed of flying. 
+>but I have always dreamed of flying. 
 
 --Tiny Wings
 
