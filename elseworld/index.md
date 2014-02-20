@@ -46,6 +46,11 @@ tagline: --I am crazy,you know
 <li>&hearts;&hearts;&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0432283/" target="_blank">Fantastic Mr. Fox</a></del>    2014-1-26</li>
 </ul>
 
+![GeekMe--My Draft!!](http://pic.yupoo.com/jok3r/DyinVQrF/medish.jpg)
+
+**Warn!**
+以上所发布的图片版权为[@Jackie Kuo](http://jing0.github.io/)所有。未经授权许可，禁止以任何方式下载和转载。
+
 <br>
 ![Superman:Red Son](http://jing0-github-io.qiniudn.com/red%20son.jpg)
 
