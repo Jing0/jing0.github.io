@@ -32,6 +32,8 @@ tagline: --I am crazy,you know
 * 2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger
 * 2014-01-27    <del>Superman: Red Son</del>
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
+* 2014-03-10    <del>WikiLeaks</del>
+
 
 ### Movies
 
