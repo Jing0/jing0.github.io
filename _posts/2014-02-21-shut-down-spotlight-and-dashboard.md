@@ -7,7 +7,7 @@ tags : [Mac,Think]
 ---
 {% include JB/setup %}
 
-一直感觉OSX自带的Dashboard对我没有多大用处。自从用了Alfred之后，Spotlight也几乎没碰过。很早以前就把这两个关闭了，今天感觉有必要记录一下。不过如果用Onyx之类的，可以直接找到相关设置项，更方便一些。
+一直感觉OSX自带的Dashboard对我没有多大用处。自从用了Alfred之后，Spotlight也几乎没碰过（Spotlight占用的资源可不小）。很早以前就把这两个给关闭了，今天感觉有必要记录一下。不过如果用Onyx之类的，可以直接找到相关设置项，更方便一些。
 
 *注：以下过程中可能需要输入系统密码*
 
