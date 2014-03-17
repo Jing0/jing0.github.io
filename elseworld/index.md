@@ -34,7 +34,9 @@ tagline: --I am crazy,you know
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
 * 2014-03-10    <del>WikiLeaks</del>
 * 2014-03-12    <del>我读书少，你可别骗我</del>  马伯庸
-* 2014-03-16    <del>The Curious Case of Benjamin Button</del>F Scott Fitzgerald
+* 2014-03-15    <del>The Curious Case of Benjamin Button</del>  F Scott Fitzgerald
+* 2014-03-17    <del>悟空传</del> 今何在 &Yuml;
+
 
 ### Movies
 
