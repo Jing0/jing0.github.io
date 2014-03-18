@@ -11,7 +11,7 @@ tags : ["Code,Vim,iOS,App"]
 
 以上纯属虚构。
 
-有句老话说的好：“你可以把马带到水边，但是你不能强迫它使用你最钟爱的的代码编辑器。”（^_^）虽然我不想加入这场永无休止的Emacser和Vimer的争吵，但不得不承认的是，Vim以其快速、小巧、简单（相对Emacs）的特点为自己赢得了更高的普及率。在移动设备冲击PC生态环境的大环境下，`vi on everywhere`的口号也渗透到了iOS。软件开发商Applidium将Vim移植到了iOS平台，在[最新版本](https://itunes.apple.com/cn/app/vim/id492668168?l=en&mt=8)中，软件不光为iOS7优化了，还适配iPhone5的屏幕（真是业界良心，VLC for iOS也是他家的）。
+有句老话说的好：“你可以把马带到水边，但是你不能强迫它使用你最钟爱的的代码编辑器。”:-P虽然我不想加入这场永无休止的Emacser和Vimer的争吵，但不得不承认的是，Vim以其快速、小巧、简单（相对Emacs）的特点为自己赢得了更高的普及率。在移动设备冲击PC生态环境的大环境下，`vi on everywhere`的口号也渗透到了iOS。软件开发商Applidium将Vim移植到了iOS平台，在[最新版本](https://itunes.apple.com/cn/app/vim/id492668168?l=en&mt=8)中，软件不光为iOS7优化了，还适配iPhone5的屏幕（真是业界良心，VLC for iOS也是他家的）。
 
 ![vimicon](http://pic.yupoo.com/jok3r/DCbN4kZg/small.jpg)
 
