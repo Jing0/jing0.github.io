@@ -36,6 +36,7 @@ tagline: --I am crazy,you know
 * 2014-03-12    <del>我读书少，你可别骗我</del>  马伯庸
 * 2014-03-15    <del>The Curious Case of Benjamin Button</del>  F Scott Fitzgerald
 * 2014-03-17    <del>悟空传</del> 今何在 &Yuml;
+* 2014-03-19    <del>所有人问所有人</del>
 
 
 ### Movies
