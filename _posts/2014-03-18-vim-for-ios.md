@@ -31,7 +31,7 @@ Vim for iOS基本上保留了vim所有的功能：支持编辑.vimrc，添加主
 
 写完以后，在命令模式输入`:w`保存，再重新打开vim，就可以查看刚才写的配置文件的效果了。
 
-![vimrc](http://pic.yupoo.com/jok3r/DCbN6npc/medium.jpg)
+![vimrc](http://pic.yupoo.com/jok3r/DCGpvE49/medium.jpg)
 
 ![vimhelp](http://pic.yupoo.com/jok3r/DCbNl5u0/medium.jpg)
 
