@@ -32,11 +32,14 @@ tagline: --I am crazy,you know
 * 2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger
 * 2014-01-27    <del>Superman: Red Son</del>
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
-* 2014-03-10    <del>WikiLeaks</del>
-* 2014-03-12    <del>我读书少，你可别骗我</del>  马伯庸
+* 2014-03-07    <del>WikiLeaks</del>
+* 2014-03-11    <del>我读书少，你可别骗我</del>  马伯庸
 * 2014-03-15    <del>The Curious Case of Benjamin Button</del>  F Scott Fitzgerald
 * 2014-03-17    <del>悟空传</del> 今何在 &Yuml;
 * 2014-03-19    <del>所有人问所有人</del>
+* 2014-03-21    <del>Practices of an Agile Developer</del>
+* MacTalk&bull;人生元编程
+* 理科生的人生设计指南
 
 
 ### Movies
