@@ -38,6 +38,7 @@ tagline: --I am crazy,you know
 * 2014-03-17    <del>悟空传</del> 今何在 &Yuml;
 * 2014-03-19    <del>所有人问所有人</del>
 * 2014-03-21    <del>Practices of an Agile Developer</del>
+* Dogfight: How Apple and Google Went to War and Started a Revolution
 * MacTalk&bull;人生元编程
 * 理科生的人生设计指南
 
