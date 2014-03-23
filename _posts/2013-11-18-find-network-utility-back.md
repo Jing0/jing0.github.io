@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 找回OSX Mavericks中的网络实用工具
+title: 找回OS X Mavericks中的网络实用工具
 category: Code
 tagline: --read & think
 tags : [Linux,Mac,Vim]

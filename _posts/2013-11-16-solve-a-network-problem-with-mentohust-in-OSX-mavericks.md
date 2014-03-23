@@ -7,7 +7,7 @@ tags : [Mac,App]
 ---
 {% include JB/setup %}
 
-学校校园网用的锐捷，升级到OSX Mavericks后会出现锐捷客户端无法连接到校园网的问题，如图，
+学校校园网用的锐捷，升级到OS X Mavericks后会出现锐捷客户端无法连接到校园网的问题，如图，
 
 ![img](http://pic.yupoo.com/jok3r/DjH61Bi7/medish.jpg?resize=310%2C191)
 
