@@ -32,11 +32,7 @@ tagline: --I am crazy,you know
 * 2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger
 * 2014-01-27    <del>Superman: Red Son</del>
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
-
-<html>
-<p style="display:none">2014-02-28 echo "0000000: 43e7 a88b e5ba 8fe8 aebe e8ae a10a" | xxd -r</p>
-</html>
-
+* 2014-02-29    <del>"0000000: 43e7 a88b e5ba 8fe8 aebe e8ae a10a" | xxd -r</del>
 * 2014-03-07    <del>WikiLeaks</del>
 * 2014-03-11    <del>我读书少，你可别骗我</del>  马伯庸
 * 2014-03-15    <del>The Curious Case of Benjamin Button</del>  F Scott Fitzgerald
