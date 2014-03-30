@@ -32,7 +32,6 @@ tagline: --I am crazy,you know
 * 2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger
 * 2014-01-27    <del>Superman: Red Son</del>
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
-* 2014-02-29    <del>"0000000: 43e7 a88b e5ba 8fe8 aebe e8ae a10a" | xxd -r</del>
 * 2014-03-07    <del>WikiLeaks</del>
 * 2014-03-11    <del>我读书少，你可别骗我</del>  马伯庸
 * 2014-03-15    <del>The Curious Case of Benjamin Button</del>  F Scott Fitzgerald
@@ -40,10 +39,8 @@ tagline: --I am crazy,you know
 * 2014-03-19    <del>所有人问所有人</del>
 * 2014-03-21    <del>Practices of an Agile Developer</del>
 * 2014-03-25    <del>Dogfight: How Apple and Google Went to War and Started a Revolution</del>
-* 2014-03-29    <del>理科生的人生设计指南</del>
 * MacTalk&bull;人生元编程
-* 1984
-* Effective Programming:More Than Writing Code
+* 理科生的人生设计指南
 
 
 ### Movies
@@ -57,7 +54,6 @@ tagline: --I am crazy,you know
 <li>&hearts;&hearts;&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0096283/" target="_blank">My Neighbor Totoro</a></del>    2014-1-24</li>
 <li>&hearts;<del><a href="http://www.imdb.com/title/tt1245492/" target="_blank">This Is the End</a></del>    2014-1-26</li>
 <li>&hearts;&hearts;&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0432283/" target="_blank">Fantastic Mr. Fox</a></del>    2014-1-26</li>
-<li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt2294629/"target="_blank">Frozen</a></del>    2014-3-28</li>
 </ul>
 
 ![GeekMe--My Draft!!](http://pic.yupoo.com/jok3r/DyinVQrF/medish.jpg)
