@@ -41,7 +41,7 @@ tagline: --I am crazy,you know
 * 2014-03-21    <del>Practices of an Agile Developer</del>
 * 2014-03-25    <del>Dogfight: How Apple and Google Went to War and Started a Revolution</del>
 * 2014-03-29 <del>理科生的人生设计指南</del>
-* MacTalk&bull;人生元编程
+* 2014-03-31 <del>MacTalk&bull;人生元编程</del>
 * Effective Programming:More Than Writing Code
 * 1984
 
