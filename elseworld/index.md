@@ -20,7 +20,7 @@ tagline: --I am crazy,you know
 			<embed height="100" width="100" src="test.mp3" />
 </audio>
 
-### &#9733;My Favorite
+### &hearts;My Favorite
 
 <a href="http://myfavtv.qiniudn.com" target="_blank">My Favorite TV Series</a>
 
