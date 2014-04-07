@@ -20,7 +20,7 @@ tagline: --I am crazy,you know
 			<embed height="100" width="100" src="test.mp3" />
 </audio>
 
-### &hearts;My Favorite
+### &#9733;My Favorite
 
 <a href="http://myfavtv.qiniudn.com" target="_blank">My Favorite TV Series</a>
 
@@ -49,14 +49,17 @@ tagline: --I am crazy,you know
 ### Movies
 
 <ul>
-<li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0093389/" target="_blank">The Last Emperor</a></del>    2014-1-16</li>
-<li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt1454468/" target="_blank">Gravity</a></del>    2014-1-18</li>
-<li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0130827/" target="_blank">Run Lola Run</a></del>    2014-1-18</li>
-<li>&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt1024648/" target="_blank">Argo</a></del>    2014-1-20</li>
-<li>&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt2179116/" target="_blank">The Kings of Summer</a></del>    2014-1-23</li>
-<li>&hearts;&hearts;&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0096283/" target="_blank">My Neighbor Totoro</a></del>    2014-1-24</li>
-<li>&hearts;<del><a href="http://www.imdb.com/title/tt1245492/" target="_blank">This Is the End</a></del>    2014-1-26</li>
-<li>&hearts;&hearts;&hearts;&hearts;&hearts;<del><a href="http://www.imdb.com/title/tt0432283/" target="_blank">Fantastic Mr. Fox</a></del>    2014-1-26</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt0093389/" target="_blank">The Last Emperor</a></del>    2014-01-16</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1454468/" target="_blank">Gravity</a></del>    2014-01-18</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt0130827/" target="_blank">Run Lola Run</a></del>    2014-01-18</li>
+<li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1024648/" target="_blank">Argo</a></del>    2014-01-20</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt2179116/" target="_blank">The Kings of Summer</a></del>    2014-01-23</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0096283/" target="_blank">My Neighbor Totoro</a></del>    2014-01-24</li>
+<li>&#9733;&#9734;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1245492/" target="_blank">This Is the End</a></del>    2014-01-26</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0432283/" target="_blank">Fantastic Mr. Fox</a></del>    2014-01-26</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt2294629/">Frozen</a></del>    2014-03-29</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1170358/" target="_blank">The Hobbit: The Desolation of Smaug</a></del>    2014-04-06</li>
+<li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt0816711/" target="_blank">World War Z</a></del>    2014-04-06</li>
 </ul>
 
 ![GeekMe--My Draft!!](http://pic.yupoo.com/jok3r/DyinVQrF/medish.jpg)
