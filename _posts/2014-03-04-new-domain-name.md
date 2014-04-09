@@ -3,7 +3,7 @@ layout: page
 title: 启用新的域名，Jackiekuo.com！
 category: "Life"
 tagline: --read & think
-tags : [Think,Blog,Github,Pages,Jekyll,Domain Name]
+tags : [Think,Blog,GitHub,Pages,Jekyll,Domain Name]
 ---
 
 Finally，

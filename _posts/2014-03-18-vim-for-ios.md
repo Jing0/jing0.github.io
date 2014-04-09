@@ -35,4 +35,4 @@ Vim for iOS基本上保留了vim所有的功能：支持编辑.vimrc，添加主
 
 ![vimhelp](http://pic.yupoo.com/jok3r/DCbNl5u0/medium.jpg)
 
-开发商Applidium将软件的源代码放在了Github上，如果感兴趣，可以看看[Vim for iOS on Github](https://github.com/applidium/Vim)。
+开发商Applidium将软件的源代码放在了GitHub上，如果感兴趣，可以看看[Vim for iOS on GitHub](https://github.com/applidium/Vim)。

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Say Hello to Jekyll &amp; Github Pages!
+title: Say Hello to Jekyll &amp; GitHub Pages!
 category: Think
 tagline: --read & think
-tags : [Jekyll,Github,Pages]
+tags : [Jekyll,GitHub,Pages]
 ---
 {% include JB/setup %}
 
@@ -20,15 +20,15 @@ tags : [Jekyll,Github,Pages]
 
 到上了大学，一个星期五晚上不知道是不是吃饱了撑的，花了几个小时找个了国外主机又做了[一个](http://jok3r.ueuo.com)。当时感觉还不错，主机每月流量几乎用不完，访问速度比原来找的快多了，东西想怎么写就怎么写，还送个免费的域名，有时还可以做些有趣的实验放上去。不过既然是免费的，就肯定有缺点，后来发现这域名其他学校都不能访问，回到家也不行。好吧，肯定是主机服务商名声太差了。发现了一个缺点，你就会去找其他缺点。绑定域名有限制不说，ping一下，有时响应时间竟超过700ms！还有WordPress有时也让人难以忍受，而且每月一次的博客备份在不稳定的网络成了沉重的负担。WordPress配合这主机就像一个八九十岁的老头拄着拐棍儿参加马拉松一样，随便装几个插件就等于把他的拐棍儿也给没收了。
 
-后来听说OpenShift不错，不过频繁地被qiang还是让我放弃了。然后，我就看到了Github Pages，速度当然没问题，流量和空间更是无限，东西都在Github上还用备份？！而且最重要的是，暂时不用担心被qiang的问题。好吧，谁也不能保证Github会在瓷器国的魔爪下永存。
+后来听说OpenShift不错，不过频繁地被qiang还是让我放弃了。然后，我就看到了GitHub Pages，速度当然没问题，流量和空间更是无限，东西都在GitHub上还用备份？！而且最重要的是，暂时不用担心被qiang的问题。好吧，谁也不能保证GitHub会在瓷器国的魔爪下永存。
 
-使用Github Pages的blog一般采用Jekyll搭建，这是[Github员工mojombo](https://github.com/mojombo)写的静态站点生成器，所以访问速度够快，并且可以采用Markdown等标记语言来编写，简单高效。这是一种真正让你专注于blog的组合，你所需要的只是git和一个编辑器。
+使用GitHub Pages的blog一般采用Jekyll搭建，这是[GitHub员工mojombo](https://github.com/mojombo)写的静态站点生成器，所以访问速度够快，并且可以采用Markdown等标记语言来编写，简单高效。这是一种真正让你专注于blog的组合，你所需要的只是git和一个编辑器。
 
 不过用gh-pages和Jekyll依然存在一些问题：
 
 * 配置起来实在够麻烦。先不说翻来覆去的git命令，稍微一不注意就会出现一些error。Jekyll-Bootstrap官方页面给的步骤我试了好几次也没成功，最后用了笨方法：在新建repo的setting里生成Page，然后把下载的Jekyll同步上去。
 * Markdown难以满足需求。虽然说Markdown有时简单方便到极致，但正是因为它的简单，导致了一些本来很简单的东西需要很复杂的方式来实现，最后反而破坏了它的长处。就比如迁移博客时一些文章里的代码片段，用Markdown语法怎么写都不对劲儿，最后把原文章里的HTML代码粘贴上去才可以。HTML标签和Markdown混合？那我还不如直接用HTML呢！
-* 有时push以后没反应。有几次repo中已经显示同步成功，但Github Pages里过了好长时间才更新，有时甚至一直不更新，索性我就再来一次。不知道是不是个别问题。
+* 有时push以后没反应。有几次repo中已经显示同步成功，但GitHub Pages里过了好长时间才更新，有时甚至一直不更新，索性我就再来一次。不知道是不是个别问题。
 * 文章多了影响速度。额，这个等我达到那个程度时再来考虑吧。
 * 功能缺失。不能像WordPress自带评论系统。好吧，这个不算问题，反正也没几个人评论。不过一个搜索功能都需要用Google的custom search就不怎么称心了，难道搜索影响了简洁？
 
@@ -39,4 +39,4 @@ tags : [Jekyll,Github,Pages]
 推荐几篇文章：
 
 * [Blogging like a hacker](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)
-* [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+* [搭建一个免费的，无限流量的Blog----GitHub Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
