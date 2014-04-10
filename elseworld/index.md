@@ -42,8 +42,8 @@ tagline: --I am crazy,you know
 * 2014-03-25    <del>Dogfight: How Apple and Google Went to War and Started a Revolution</del>
 * 2014-03-29 <del>理科生的人生设计指南</del>
 * 2014-03-31 <del>MacTalk&bull;人生元编程</del>
-* 2014-04-10 <del>You Are Not a Gadget</del>
-* Effective Programming:More Than Writing Code
+* 2014-04-09 <del>[You Are Not a Gadget](http://jackiekuo.com/book/2014/04/10/you-are-not-a-gadget/)</del>
+* 2014-04-10 <del>Effective Programming:More Than Writing Code</del>
 * 1984
 
 

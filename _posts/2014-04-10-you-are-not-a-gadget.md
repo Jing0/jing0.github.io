@@ -15,7 +15,7 @@ tags : [Book,Think,Life]
 
 昨天看完了[Jaron Lanier](http://en.wikipedia.org/wiki/Jaron_Lanier)的《You Are Not A Gadget》。只能说，这是一本思维、言论很极端的书。
 
-极端的书的作者肯定也不一般。如果你了解Jaron Lanier的话，你一定会被他的能力所折服：作家、计算机科学家、作曲家（擅长古典音乐），并且还是虚拟现实的先驱（其实几乎可以说“Virtual Reality”这个词就是Lanier创造的）。另外，他还算是个导演，看[这里](http://en.wikipedia.org/wiki/The_Third_Wave_(documentary)。所以，当你知道他2010年被《时代》周刊评为`2010年100位最具影响力的人`之一的时候，你肯定不会奇怪了。
+当然，极端的书的作者肯定也不一般。如果你了解作者Jaron Lanier的话，你一定会被他的能力所折服：作家、计算机科学家、作曲家（擅长古典音乐，并为多个电影作曲），并且还是虚拟现实的先驱（其实几乎可以说“Virtual Reality”这个词就是Lanier创造的）。所以，当你知道他2010年被《时代》周刊评为`2010年100位最具影响力的人`之一的时候，你肯定不会感到奇怪了。
 
 整本书主要是Jaron对互联网、人的相互影响的思考。通过对文件夹、操作系统、数字音乐、云、互联网运营模式以及开源文化等概念的思考，Jaron试图让人们意识到人类自己已经成为了信息化的一部分。在数字化时代，人格的深层含义正在被削弱。而且互联网不是当初想要创造一个信息分享的平台那么简单了，因为人类现在已经固化在这个平台上，甚至思维早已经被平台模式化了。
 
@@ -30,6 +30,8 @@ tags : [Book,Think,Life]
 >流行文化已经处于怀旧的不安之中。随着强势大众媒体的式微，网络文化被各种混搭的碎片和狂热的人们所统治——一切都毫无理由。
 
 >人的灵性正在自我消亡，洞察力也即将消失殆尽。
+
+>The problem is not that the big computer will kill everybody. The real problem is that all the wealth will end up with the people who own the biggest computers. That's the trend we've moving towards. So the problem is not mass genocide, even though if you take them at their word, it seems to be what they're saying. The real problem is mass poverty.
 
 作者也列了一个关于网络文化的清单，
 
