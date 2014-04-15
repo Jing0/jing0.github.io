@@ -1,8 +1,8 @@
 ---
 layout: page
 title: 只是三首喜欢的歌词而已
-description:三首喜欢的歌，Creep，Imagine和The Times They Are A-Changin的歌词，感谢这些伟大的诗人
-keywords:Music,Creep,Imagine,The Times They Are A-Changin,Bob Dylan,Lennon,歌词
+description: 三首喜欢的歌，Creep，Imagine和The Times They Are A-Changin的歌词，感谢这些伟大的诗人
+keywords: Music,Creep,Imagine,The Times They Are A-Changin,Bob Dylan,Lennon,歌词
 category: Music
 tagline: --read & think
 tags: [Music]
