@@ -11,7 +11,7 @@ tags: [Music]
 
 ##CREEP 
 
-####by Radiohead
+###by Radiohead
 
 *When you were here before*
 
@@ -103,7 +103,7 @@ tags: [Music]
 
 ##IMAGINE
 
-####John Lennon
+###by John Lennon
 
 *Imagine there's no heaven*
 
@@ -167,7 +167,7 @@ tags: [Music]
 
 ##The Times They Are A-Changin
 
-####Bob Dylan
+###by Bob Dylan
 
 *Come gather ’round people*
 
