@@ -38,12 +38,12 @@ tagline: --I am crazy,you know
 * 2014-03-15    <del>The Curious Case of Benjamin Button</del>  F Scott Fitzgerald
 * 2014-03-17    <del>悟空传</del> 今何在 &Yuml;
 * 2014-03-19    <del>所有人问所有人</del>
-* 2014-03-21    <del>Practices of an Agile Developer</del>
+* 2014-03-21    <del>[Practices of an Agile Developer](http://jackiekuo.com/book/2014/04/19/thoughts-on-effectivity-program-and-life/)</del>
 * 2014-03-25    <del>Dogfight: How Apple and Google Went to War and Started a Revolution</del>
 * 2014-03-29 <del>理科生的人生设计指南</del>
 * 2014-03-31 <del>MacTalk&bull;人生元编程</del>
 * 2014-04-09 <del>[You Are Not a Gadget](http://jackiekuo.com/book/2014/04/10/you-are-not-a-gadget/)</del>
-* 2014-04-10 <del>Effective Programming:More Than Writing Code</del>
+* 2014-04-10 <del>[Effective Programming:More Than Writing Code](http://jackiekuo.com/book/2014/04/19/thoughts-on-effectivity-program-and-life/)</del>
 * 1984
 * 浪潮之巅
 * Objective-C编程
