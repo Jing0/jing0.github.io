@@ -45,6 +45,9 @@ tagline: --I am crazy,you know
 * 2014-04-09 <del>[You Are Not a Gadget](http://jackiekuo.com/book/2014/04/10/you-are-not-a-gadget/)</del>
 * 2014-04-10 <del>Effective Programming:More Than Writing Code</del>
 * 1984
+* 浪潮之巅
+* Objective-C编程
+* 冰与火之歌（卷一）——权力的游戏（上）
 
 
 ### Movies
