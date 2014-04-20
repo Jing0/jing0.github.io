@@ -5,7 +5,7 @@ description: 前一段时间看了两本书《高效程序员的45个习惯—�
 keywords: 《高效程序员的45个习惯——敏捷开发修炼之道》,《高效能程序员的修炼》
 category: book
 tagline: --read & think
-tags: [Think,Read,Digest]
+tags: [Book,Think,Read,Digest]
 ---
 {% include JB/setup %}
 
