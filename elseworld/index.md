@@ -28,7 +28,7 @@ tagline: --I am crazy,you know
 
 ### Books
 
-* 2014-01-22    <del>ONE: nice to meet you</del>
+* 2014-01-22    <del>[ONE: nice to meet you](http://jackiekuo.com/book/2014/04/20/about-one/)</del>
 * 2014-01-25    <del>The Catcher in the Rye</del> J.D.Salinger
 * 2014-01-27    <del>Superman: Red Son</del>
 * 2014-02-03    <del>Hackers and Painters</del> Paul Graham
