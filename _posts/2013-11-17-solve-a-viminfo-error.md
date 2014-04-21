@@ -1,6 +1,8 @@
 ---
 layout: page
 title: .viminfo出错的解决方法
+description: .viminfo出错的解决方法
+keywords: Vim,viminfo,terminal
 category: Code
 tagline: --read & think
 tags : [Linux,Mac,Vim]

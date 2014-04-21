@@ -4,8 +4,7 @@ title: ELSEWORLD
 tagline: --I am crazy,you know
 ---
 {% include JB/setup %}
-    
-## !! UNDER CONSTRUCTION !!
+
 ![Sperman:Coder--My Draft!!](http://jing0-github-io.qiniudn.com/superman-elseworld-coder.png)
 
 >My wings are tiny，

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Eclipse提速记录
+description: 给Eclipse加速，启动加速
+keywords: eclipse,java
 category: Code
 tagline: --read & think
 tags : [eclipse,java]
