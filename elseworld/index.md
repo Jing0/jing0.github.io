@@ -44,7 +44,8 @@ tagline: --I am crazy,you know
 * 2014-04-09 <del>[You Are Not a Gadget](http://jackiekuo.com/book/2014/04/10/you-are-not-a-gadget/)</del>
 * 2014-04-10 <del>[Effective Programming:More Than Writing Code](http://jackiekuo.com/book/2014/04/19/thoughts-on-effectivity-program-and-life/)</del>
 * 2014-04-25 <del>Startup Weekend: how to take a company from conception to creation in 54 hours</del>
-* 2014-04-25 <del>Hamlet</del>
+* 2014-04-25 <del>[Hamlet](http://jackiekuo.com/book/2014/04/27/talk-about-shakespeare-and-culture/)</del>
+* 2014-04-26 <del>[Romeo and Juliet](http://jackiekuo.com/book/2014/04/27/talk-about-shakespeare-and-culture/)</del>
 * 1984
 * 浪潮之巅
 * Objective-C编程
