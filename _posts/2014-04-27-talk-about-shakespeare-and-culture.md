@@ -44,7 +44,7 @@ tags: [Think,Digest,Life,Read,Complaint]
 **Big Brother is looking at you!**
 
 
-看到这，你或许会想，这和我有什么关系，用的着这么多废话吗？呵呵，关系可大了。
+看到这儿，你或许会想，这和我有什么直接关系，用的着这么多废话吗？呵呵，关系可大了。
 
 ![第一个app](http://pic.yupoo.com/jok3r/DIceZkSL/medish.jpg)
 
