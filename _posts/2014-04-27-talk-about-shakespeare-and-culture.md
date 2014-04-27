@@ -9,7 +9,7 @@ tags: [Think,Digest,Life,Read,Complaint]
 ---
 {% include JB/setup %}
 
-4月23日是[威廉·莎士比亚](http://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A)诞辰450周年。
+2014年4月23日是[威廉·莎士比亚](http://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A)诞辰450周年。
 
 于是，接着机会，我花了三天看完了朱生豪译本的《哈姆雷特》和《罗密欧与朱丽叶》。其实这些书应该高中甚至初中之前就应该读的，但是那几年自己却被迫喜欢上人民教育出版社的书了。
 
