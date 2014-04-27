@@ -41,7 +41,7 @@ tags: [Think,Digest,Life,Read,Complaint]
  
 **将来他就决定你只能看什么。**
 
-**Big Brother is looking at you!**
+**Big Brother is looking at you !**
 
 
 看到这儿，你或许会想，这和我有什么直接关系，用的着这么多废话吗？呵呵，关系可大了。
