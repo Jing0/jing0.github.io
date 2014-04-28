@@ -48,7 +48,7 @@ tags: [Think,Digest,Life,Read,Complaint]
 
 ![第一个app](http://pic.yupoo.com/jok3r/DIceZkSL/medish.jpg)
 
-据我了解，好多个人开发者都收到了这邮件，无缘无故的（第一个App，2012年初上架的。两年过去了，要不是这邮件，我都给忘了。收到这邮件，唉，下架就下架吧）
+据我了解，好多个人开发者都收到了这邮件，无缘无故的（我的第一个App，2012年初上架的。两年过去了，要不是这邮件，我都给忘了。收到这邮件，唉，下架就下架吧）
 
 ![Coursera](http://pic.yupoo.com/jok3r/DIceZmOX/medish.jpg)
 
