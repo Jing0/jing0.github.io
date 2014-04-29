@@ -30,12 +30,11 @@ tagline: --read & think
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <style>
 .timeline {
 	position: relative;
-	margin-top: 60px;
-	height: 60px;
+	margin-top: 30px;
+	height: 45px;
 }
 .line {
 	height: 4px;
