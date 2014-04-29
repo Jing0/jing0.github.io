@@ -28,5 +28,70 @@ tagline: --read & think
 * [Twitter](https://twitter.com/jok3rME)
 
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
-
-<script src="https://gist.github.com/Jing0/11403855.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<style>
+.timeline {
+	position: relative;
+	margin-top: 150px;
+	height: 60px;
+}
+.time-item {
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+	margin-right: 50px;
+}
+.time {
+	display: block;
+	background-color: #a03;
+	color: #fff;
+	border-radius: 60px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.event {
+	background-color: rgba(0,0,0,.8);
+	padding: 10px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	display: none;
+	position: absolute;
+	bottom: 40px;
+	color: #fff;
+}
+.event:before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -20px;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	border-color: rgba(0,0,0,.8) transparent transparent transparent;
+	border-style: solid dashed dashed dashed;
+	border-width: 40px 0 0 0;
+}
+.time-item:hover .event {
+	display: block;
+}
+</style>
+<div class="timeline">
+		<div class="line"></div>
+		<div class="time-item">
+			<span class="time">1995</span>
+			<div class="event">Born</div>
+		</div>
+		<div class="time-item">
+			<span class="time">2011</span>
+			<div class="event">Learned about Java and first Android app</div>
+		</div>
+		<div class="time-item">
+			<span class="time">2013</span>
+			<div class="event">Entered University</div>
+		</div>
+</div>
