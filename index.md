@@ -25,7 +25,8 @@ tagline: --read & think
 
 * [Email](mailto:j.kuo2012@gmail.com)
 * [Github](https://github.com/jing0)
-* [Facebook](https://www.facebook.com/jackie.kuo.18)
 * [Twitter](https://twitter.com/jok3rME)
 
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
+
+<script src="https://gist.github.com/Jing0/11403855.js"></script>
