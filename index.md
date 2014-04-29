@@ -27,8 +27,6 @@ tagline: --read & think
 * [Github](https://github.com/jing0)
 * [Twitter](https://twitter.com/jok3rME)
 
-![image](http://jing0-github-io.qiniudn.com/QR.png)
-
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <style>
 .timeline {
@@ -104,3 +102,5 @@ tagline: --read & think
 			<div class="event">Entered University</div>
 		</div>
 </div>
+
+![image](http://jing0-github-io.qiniudn.com/QR.png)
