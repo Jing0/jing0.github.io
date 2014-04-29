@@ -92,11 +92,11 @@ tagline: --read & think
 		</div>
 		<div class="time-item">
 			<span class="time">2011</span>
-			<div class="event">Learned about Java and made first Android app</div>
+			<div class="event">Learned about Java and made my first Android app</div>
 		</div>
 		<div class="time-item">
 			<span class="time">2013</span>
-			<div class="event">Entered University</div>
+			<div class="event">Entered ZhengZhou University</div>
 		</div>
 </div>
 
