@@ -36,6 +36,14 @@ tagline: --read & think
 	margin-top: 150px;
 	height: 60px;
 }
+.line {
+	height: 4px;
+	background-color: #888;
+	width: 100%;
+	top: 50%;
+	margin-top: -2px;
+	position: absolute;
+}
 .time-item {
 	position: relative;
 	display: inline-block;
