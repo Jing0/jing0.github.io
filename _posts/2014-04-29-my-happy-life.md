@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Life
+title: My Happy Life
 description: 我的个人简介
 keywords: C,Write my life,简介
 category: Life
