@@ -50,6 +50,9 @@ tagline: --I am crazy,you know
 * 浪潮之巅
 * Objective-C编程
 * 冰与火之歌（卷一）——权力的游戏（上）
+* 思考的乐趣：Matrix67数学笔记
+* 自控力
+* 算法竞赛入门经典
 
 
 ### Movies
