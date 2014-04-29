@@ -28,12 +28,13 @@ tagline: --read & think
 * [Twitter](https://twitter.com/jok3rME)
 
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
+
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <style>
 .timeline {
 	position: relative;
-	margin-top: 150px;
+	margin-top: 60px;
 	height: 60px;
 }
 .line {
@@ -48,16 +49,17 @@ tagline: --read & think
 	position: relative;
 	display: inline-block;
 	zoom: 1;
-	margin-right: 50px;
+	margin-right: 40px;
 }
 .time {
 	display: block;
-	background-color: #a03;
+	background-color: #1A69EC;
 	color: #fff;
-	border-radius: 60px;
-	width: 60px;
-	height: 60px;
-	line-height: 60px;
+	border-radius: 45px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 13px;
 	text-align: center;
 }
 .event {
@@ -96,7 +98,7 @@ tagline: --read & think
 		</div>
 		<div class="time-item">
 			<span class="time">2011</span>
-			<div class="event">Learned about Java and first Android app</div>
+			<div class="event">Learned about Java and made first Android app</div>
 		</div>
 		<div class="time-item">
 			<span class="time">2013</span>
