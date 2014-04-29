@@ -21,17 +21,14 @@ tagline: --read & think
 * [Happy New Year](http://happy-new-year-from-jackie.u.qiniudn.com/)-- a web page to celebrate new year's coming
 * [Web Bookmarks](http://mybookmarks.u.qiniudn.com/)-- just a web page for myself
 
-## Contact Me
-
-* [Email](mailto:j.kuo2012@gmail.com)
-* [Github](https://github.com/jing0)
-* [Twitter](https://twitter.com/jok3rME)
+## My Life
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <style>
 .timeline {
 	position: relative;
 	margin-top: 30px;
+	margin-bottom: 30px;
 	height: 45px;
 }
 .line {
