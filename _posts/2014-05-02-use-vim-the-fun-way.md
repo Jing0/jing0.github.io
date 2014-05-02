@@ -17,7 +17,7 @@ tags: [Vim,Code,Trivia]
 
 ###Matrix黑客帝国
 
-![matrix.vim](./images/matrix.gif)
+![matrix.vim](http://jackiekuo.com/images/matrix.gif)
 
 是的，这个是模拟《矩阵革命》里经典的字符下落的效果。虽然这只是个屏保，不过它确实很酷。输入`:Matrix`就能看到效果。
 
@@ -25,7 +25,7 @@ tags: [Vim,Code,Trivia]
 
 ###Tetris俄罗斯方块
 
-![teris](./images/tetris.gif)
+![teris](http://jackiekuo.com/images/tetris.gif)
 
 这个还用过多介绍吗？在编辑器中玩史上最伟大的游戏之一，就这一点足以让Sublime Text党和Atom派一边玩去了。输入`<Leader>te`启动(默认为`\te`)。
 
