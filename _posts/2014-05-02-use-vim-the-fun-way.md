@@ -11,7 +11,7 @@ tags: [Vim,Code,Trivia]
 
 话说2014年，刚满22岁的Vim却不断受到一些乳臭未干的小屁孩的挑战：Sublime Text以`Sexy`自称，而不满一岁的Atom，却顶着`editor for the 21st century`的荣耀光环。这些`Sexy`和`Modern`的不和谐文化，不断挑衅着Vim以及破坏Vim党派内的风气。
 
-废话完毕！Vim强大的插件岂是黄毛小儿所能比的？下面的一些插件教你如何优雅(echo "0000000: e8a3 85e9 80bc 0a" | xxd -r)地使用Vim。
+废话完毕！Vim强大的插件岂是黄毛小儿所能比的？下面的一些插件教你如何优雅(`echo "0000000: e8a3 85e9 80bc 0a" | xxd -r`)地使用Vim。
 
 注：Vim插件的安装方式一般为输入`:source <plugin_name>`或是直接放到`.vim/plugin/`。
 
@@ -35,7 +35,7 @@ tags: [Vim,Code,Trivia]
 
 ![sudoku](http://pic.yupoo.com/jok3r/DJ6Eny3y/medish.jpg)
 
-数独是我最喜欢的游戏了。虽然在Vim里玩起来不是太爽，但为了`优雅`（echo "0000000: e8a3 85e9 80bc 0a" | xxd -r），还是可以装一下的。
+数独是我最喜欢的游戏了。虽然在Vim里玩起来不是太爽，但为了`优雅`（`echo "0000000: e8a3 85e9 80bc 0a" | xxd -r`），还是可以装一下的。
 
 输入`SudokuEasy`、`SudokuMedium`、`SudokuHard`或`SudokuVeryHard`选择不同难度。
 
