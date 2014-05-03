@@ -27,7 +27,9 @@ tags: [Vim,Code,Trivia]
 
 ![teris](http://jackiekuo.com/images/tetris.gif)
 
-这个还用过多介绍吗？在编辑器中玩史上最伟大的游戏之一，就这一点足以让Sublime Text党和Atom派一边玩去了。输入`<Leader>te`启动(默认为`\te`)。
+这个还用过多介绍吗？在编辑器中玩史上最伟大的游戏之一，就这一点足以让Sublime Text党和Atom派一边玩去了。
+
+游戏玩起来速度有点快，不可以自己通过修改插件来调整。如何控制下落方向和变形？当然是HJKL了。输入`<Leader>te`启动(默认为`\te`)。
 
 [下载地址](http://www.vim.org/scripts/script.php?script_id=172)
 
@@ -35,9 +37,9 @@ tags: [Vim,Code,Trivia]
 
 ![sudoku](http://pic.yupoo.com/jok3r/DJ6Eny3y/medish.jpg)
 
-数独是我最喜欢的游戏了。虽然在Vim里玩起来不是太爽，但为了`优雅`（`echo "0000000: e8a3 85e9 80bc 0a" | xxd -r`），还是可以装一下的。
+数独是我最喜欢的游戏了。虽然在Vim里玩起来不是太爽，但为了`优雅`，还是可以装一下的。
 
-输入`SudokuEasy`、`SudokuMedium`、`SudokuHard`或`SudokuVeryHard`选择不同难度。
+输入`SudokuEasy`、`SudokuMedium`、`SudokuHard`或`SudokuVeryHard`可以选择不同难度。
 
 [下载地址](http://www.vim.org/scripts/script.php?script_id=3553)
 
