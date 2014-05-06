@@ -5,8 +5,9 @@ description: 如何优雅地使用Vim?关于Vim的美化
 keywords: Vim,Sublime text,Atom,Plugin,Solarized,Powerline,icon,美化
 category: Code
 tagline: --read & think
-## tags: \[Vim,Code,Trivia]
-\{% include JB/setup %}
+tags: [Vim,Code,Trivia]
+---
+{% include JB/setup %}
 
 ####接上篇[如何优雅地使用Vim？(趣味篇)](http://jackiekuo.com/code/2014/05/02/use-vim-the-fun-way/)
 
