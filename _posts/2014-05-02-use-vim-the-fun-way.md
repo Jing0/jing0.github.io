@@ -43,4 +43,4 @@ tags: [Vim,Code,Trivia]
 
 [下载地址](http://www.vim.org/scripts/script.php?script_id=3553)
 
-####见下篇[如何优雅地使用Vim？(美化篇)](http://jackiekuo.com/2014/05/06/use-vim-the-sexy-way/)
+####见下篇[如何优雅地使用Vim？(美化篇)](http://jackiekuo.com/code/2014/05/06/use-vim-the-sexy-way/)
