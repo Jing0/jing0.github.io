@@ -53,21 +53,4 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 配置起来稍微有点麻烦，不过官方文档说明得很详细，这里就不多说了。
 
-###图标
-
-对于那些喜欢折腾图标的人，这里有几个感觉还可以的设计以供继续折腾。
-
-<img src="https://d13yacurqjgara.cloudfront.net/users/2008/screenshots/1435854/vim-icon-dribbble_1x.png" width=40% >
-
-[点击进入Dribble查看](https://dribbble.com/shots/1435854-Vim-Replacement-Icon?list=searches&tag=vim&offset=8)
-
-<img src="https://d13yacurqjgara.cloudfront.net/users/2086/screenshots/121306/shot_1298917103.png" width=40% >
-
-[点击进入Dribble查看](https://dribbble.com/shots/121306-MacVim-Replacement-Icon?list=searches&tag=vim&offset=3)
-
-
-<img src="https://d13yacurqjgara.cloudfront.net/users/54729/screenshots/528514/macvim.png" width=40% >
-
-[点击进入Dribble查看](https://dribbble.com/shots/528514-Vim-replacement-icon?list=searches&tag=vim&offset=16)
-
 ### 未完待续
