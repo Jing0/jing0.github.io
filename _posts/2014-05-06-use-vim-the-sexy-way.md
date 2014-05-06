@@ -1,4 +1,4 @@
----- 
+---
 layout: page
 title: 如何优雅地使用Vim？(美化篇)
 description: 如何优雅地使用Vim?关于Vim的美化
@@ -15,13 +15,13 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 淡定，淡定。纵使Sublime Text和Atom能以其华丽的外表蛊惑众人，不也是其配色方案和一些组件的功劳么？给Vim美化一下不就行了吗？
 
-### Solarized
+###Solarized
 
 说实话，Vim自带的配色方案真没几个顺眼的。
 
 ![Solarized Vim](http://pic.yupoo.com/jok3r/DJI2Vg82/medish.jpg)
 
-[Solarized](http://ethanschoonover.com/solarized) 是目前最完整的 Terminal/Editor/IDE 配色项目，几乎覆盖所有主流操作系统（Mac OS X,Linux,Windows）、编辑器和 IDE（Vim,Emacs,Xcode,TextMate, NetBeans,Visual Studio 等）以及终端（iTerm2,Terminal等）。
+[Solarized](http://ethanschoonover.com/solarized) 是目前最完整的配色项目，几乎覆盖所有主流操作系统（Mac OS X,Linux,Windows）、编辑器和 IDE（Vim,Emacs,Xcode,TextMate, NetBeans,Visual Studio 等）以及终端（iTerm2,Terminal等）。
 
 在原来使用Sublime Text时（Vim God，pardon me!），我看到Solarized配色立即就惊呆了。给Vim用上Solarized，柔和，清晰，简单，让它又年轻了20岁。
 
@@ -41,7 +41,7 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 完毕。
 
-### Powerline
+###Powerline
 
 这是一个美化状态栏的插件，能显示地址、编码、进度等，值得推荐。
 
@@ -57,17 +57,17 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 个人感觉Vim本身的图标还可以。但对于那些喜欢折腾图标的人，这里有几个感觉还可以的图标设计，以供继续折腾。
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/2008/screenshots/1435854/vim-icon-dribbble_1x.png" width=40% >
+<img src="https://d13yacurqjgara.cloudfront.net/users/2008/screenshots/1435854/vim-icon-dribbble_1x.png" width=40%>
 
 [点击查看](https://dribbble.com/shots/1435854-Vim-Replacement-Icon?list=searches&tag=vim&offset=8)
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/2086/screenshots/121306/shot_1298917103.png" width=40% >
+<img src="https://d13yacurqjgara.cloudfront.net/users/2086/screenshots/121306/shot_1298917103.png" width=40%>
 
 [点击查看](https://dribbble.com/shots/121306-MacVim-Replacement-Icon?list=searches&tag=vim&offset=3)
 
 
-<img src="https://d13yacurqjgara.cloudfront.net/users/54729/screenshots/528514/macvim.png" width=40% >
+<img src="https://d13yacurqjgara.cloudfront.net/users/54729/screenshots/528514/macvim.png" width=40%>
 
 [点击查看](https://dribbble.com/shots/528514-Vim-replacement-icon?list=searches&tag=vim&offset=16)
 
-### 未完待续
+###未完待续
