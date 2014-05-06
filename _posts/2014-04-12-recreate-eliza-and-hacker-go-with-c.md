@@ -2,7 +2,7 @@
 layout: page
 title: C语言版本的Eliza与Hacker Go
 description: 用C语言重写Eliza。Eliza是早期的一项人工智能项目，能通过脚本理解简单的自然语言，并能产生类似人类的互动。
-keywords: Eliza,C,Chatbot,Code,代码,hacker go
+keywords: Eliza,C,Chatbot,Code,代码,hacker
 category: Code
 tagline: --read & think
 tags: [Code,Eliza,hacker go,Emacs,C]

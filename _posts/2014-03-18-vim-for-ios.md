@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Code On your iPhone－－Vim for iOS"
+description: Vim for iOS的介绍与简单配置
+keywords: editor,iOS,vim,emacs,vi
 category: "Code"
 tagline: --read & think
 tags : [Code,Vim,iOS,App]

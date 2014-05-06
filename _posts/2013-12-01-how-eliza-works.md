@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ELIZA是如何思考的——Emacs Doctor代码的简单分析
+description: ELIZA是如何思考的——Emacs Doctor代码的简单分析
+keywords: Emacs,Eliza,Lisp,AI，人工智能,Mac,Terminal
 category: Code
 tagline: --read & think
 tags : [Algorithm,Code,Emacs,Trivia]

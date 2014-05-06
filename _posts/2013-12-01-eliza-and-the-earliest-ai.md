@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 从Emacs Doctor到ELIZA，看早期的人工智能
+description: 从Emacs Doctor到Eliza，分析早期的人工智能与Lisp
+keywords: Emacs,Eliza,Lisp,AI，人工智能,Mac,Terminal
 category: Code
 tagline: --read & think
 tags : [Algorithm,Mac,terminal,Emacs,Trivia]
@@ -41,7 +43,7 @@ Weizenbaum很吃惊很多用户会忽视自己面对的是一个机器，而对E
 
 关于这段历史，可以看看[《面对互联网：我们已经丧失了人性》](http://lz.book.sohu.com/chapter-19176-114681445.html)。查到有两部关于Joseph Weizenbaum和ELIZA的电影[《Weizenbaum. Rebel at Work.》](http://movie.mtime.com/111521/)和[《Plug & Pray》](http://movie.mtime.com/138645/)，打算有时间看一下。
 
-Weizenbaum最早是用SLIP写的ELIZA。后来出现了很多其他语言的版本，著名的有Bernie Cosell重写的Lisp版本，Jeff Shrager的BASIC版本，还有就是GNU Emacs中的Emacs Doctor了。
+Weizenbaum最早是用Lisp写的ELIZA。后来出现了很多其他语言的版本，著名的有Bernie Cosell重写的Lisp版本，Jeff Shrager的BASIC版本，还有就是GNU Emacs中的Emacs Doctor了。
 
 另外，有一个用Perl写的改进版本的ELIZA（[Chatbox-ELIZA](http://search.cpan.org/dist/Chatbot-Eliza/)），好像只能装到UNIX内核的机器上，我尝试了下**。ELIZA体验过程及更多请看文章最后“ELIZA体验”。**
 
@@ -139,3 +141,7 @@ Gnu Emacs 20.2.2中Emacs Doctor源代码：[点击查看](http://www.csee.umbc.e
 ](http://www.csee.umbc.edu/courses/471/papers/)
 
 [面对互联网：我们已经丧失了人性](http://lz.book.sohu.com/chapter-19176-114681445.html)
+
+###Update2014-04-12
+
+自己写的一个C版本的Eliza，点击查看[C语言版本的Eliza与Hacker Go](http://jackiekuo.com/code/2014/04/12/recreate-eliza-and-hacker-go-with-c/)。
