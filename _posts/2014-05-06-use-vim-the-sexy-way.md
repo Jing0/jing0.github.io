@@ -76,4 +76,6 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 [Vim Color Scheme Editor](http://lilydjwg.vim-cn.com/articles/vim-color-modified.html)是一个可以在线定义Vim主题的网站，简单方便。如果找不到喜欢的主题，自己做一个就可以啦！
 
-###未完待续
+[Sweyla's Color Theme Generator](http://sweyla.com/themes/)则要更强大一些，不但可以针对特定语言（C++、HTML、Ruby、Python）调整，还可以生成TextMate、Emacs、Vim的主题文件。
+
+####见下篇[如何优雅地使用Vim？(实用篇)](http://jackiekuo.com/code/2014/05/07/use-vim-the-pragmatic-way/)
