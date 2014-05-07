@@ -35,9 +35,9 @@ tags: [Vim,Code,Trivia]
 
 而Multiple Cursors这个插件就能使Vim实现同样的功能！
 
-![multiple-cursors](http://jackiekuo.com/images/multiple-cursors1.gif)
+<img src="http://jackiekuo.com/images/multiple-cursors1.gif" style="width:400px; height:180px;">
 
-![multiple-cursors](http://jackiekuo.com/images/multiple-cursors2.gif)
+<img src="http://jackiekuo.com/images/multiple-cursors2.gif" style="width:400px; height:180px;">
 
 ###One More Thing
 
