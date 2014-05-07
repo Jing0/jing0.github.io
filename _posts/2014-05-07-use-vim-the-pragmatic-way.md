@@ -37,7 +37,7 @@ Google工程师开发的一个支持模糊匹配的自动补全插件，速度�
 
 再说到Sublime Text，第一次看到它官网Ctrl+D快捷键(Windows)演示时，我就惊呆了。多光标多行同时编辑，真是太酷了！
 
-而Multiple Cursors这个插件就能使Vim实现同样的功能！
+而Multiple Cursors这个插件就能使Vim实现同样的功能！而且还支持正则表达式！
 
 <img src="http://jackiekuo.com/images/multiple-cursors1.gif" style="width:400px; height:180px;">
 
