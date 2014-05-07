@@ -15,13 +15,17 @@ tags: [Vim,Code,Trivia]
 
 **每个下载页面介绍得都很详细，就不一一介绍如何安装配置了*
 
-1.[Vundle](https://github.com/gmarik/Vundle.vim) 基于Git的功能强大插件管理工具，有了它安装，更新和卸载就不用操心了。还有一个很老的插件pathogen,功能与Vundle类似，也可以尝试一下，个人更喜欢Vundle。
+###1.[Vundle](https://github.com/gmarik/Vundle.vim)
 
-2.[YouCompleteMe](https://github.com/Valloric/YouCompleteMe‎) Google工程师开发的一个支持模糊匹配的自动补全插件，速度很快，支持C、C++、OC、Python等多种主流语言。个人感觉比ctags等同类工具要好一些。
+基于Git的功能强大插件管理工具，有了它插件的安装、更新和卸载就不用操心了。
+
+###2.[YouCompleteMe](https://github.com/Valloric/YouCompleteMe‎)
+
+Google工程师开发的一个支持模糊匹配的自动补全插件，速度很快，支持C、C++、OC、Python等多种主流语言。个人感觉比ctags等同类工具要好一些。
 
 ![YouCompleteMe](http://jackiekuo.com/images/YCM.gif)
 
-3.[ctrlp](https://github.com/kien/ctrlp.vim)
+###3.[ctrlp](https://github.com/kien/ctrlp.vim)
 
 用过Sublime Text的就知道，一个Ctrl+P快捷键(Windows)能通过输入关键词快速打开文件，连回车键都不用按。
 
@@ -29,7 +33,7 @@ tags: [Vim,Code,Trivia]
 
 ![ctrlp](http://jackiekuo.com/images/ctrlp.png)
 
-4.[Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)
+###4.[Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)
 
 再说到Sublime Text，第一次看到它官网Ctrl+D快捷键(Windows)演示时，我就惊呆了。多光标多行同时编辑，真是太酷了！
 
