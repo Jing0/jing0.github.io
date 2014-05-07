@@ -41,6 +41,8 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 完毕。
 
+**另外可以尝试一下[Tomorrow Theme](https://github.com/chriskempson/vim-tomorrow-theme)，也很不错*
+
 ###Powerline
 
 这是一个美化状态栏的插件，能显示地址、编码、进度等，值得推荐。
