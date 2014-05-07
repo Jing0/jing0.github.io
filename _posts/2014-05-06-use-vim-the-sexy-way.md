@@ -72,4 +72,8 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 [点击查看](https://dribbble.com/shots/528514-Vim-replacement-icon?list=searches&tag=vim&offset=16)
 
+###Update2014-05-07
+
+[Vim Color Scheme Editor](http://lilydjwg.vim-cn.com/articles/vim-color-modified.html)是一个可以在线定义Vim主题的网站，简单方便。如果找不到喜欢的主题，自己做一个就可以啦！
+
 ###未完待续
