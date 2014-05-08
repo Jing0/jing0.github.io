@@ -17,6 +17,8 @@ tags: [Life]
 
 4. "Do your own best" is not enough,for everyone around you is doing his best.
 
+5.Almost wise saying has an opposite one.No less wise to balance it.
+
 ![ACME](http://pic.yupoo.com/jok3r/DJOoUoVS/medish.jpg)
 
 ### The Loser Now Will Be Later to Win
