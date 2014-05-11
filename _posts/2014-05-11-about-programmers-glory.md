@@ -62,7 +62,7 @@ tags: [Life,Think]
 
 其实我并不赞成消除自己的信仰。
 
-虽然我主要用Vim，但也一直保留着Emacs。虽然我更喜欢Chrome多一些，但Firefox也是我的必备软件。虽然在学Objective-C和iOS编程，但Android开发也尝试过，Go语言也有所掌握，因为我同时是Google和Apple的粉丝:-P。
+虽然我最爱用Vim，但也一直保留着Emacs。虽然我喜欢Chrome多一些，但Firefox也是我的必备软件。虽然在学Objective-C和iOS编程，但Android开发也尝试过，Go语言也有所掌握，因为我同时是Google和Apple的粉丝:-P。
 
 曾经有人语气严肃地告诉我，像是在发誓，我这辈子都不会用Mac。好吧，多谢，世界上有多了个意气用事的无知蠢蛋，而我又多比一个人多掌握了些能力。
 
