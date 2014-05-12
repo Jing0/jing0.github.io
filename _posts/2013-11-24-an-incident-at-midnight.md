@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 半夜断网以后
 category: Life
 tagline: --read & think

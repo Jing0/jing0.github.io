@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: All That Is Nonsense
 description: I am tired,but i still want to fight
 keywords: ACM,tired,success,saying

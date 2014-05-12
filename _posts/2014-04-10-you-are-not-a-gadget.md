@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 不要被互联网所改变
 category: Book
 tagline: --read & think

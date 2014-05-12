@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 启用新的域名，Jackiekuo.com！
 category: "Life"
 tagline: --read & think

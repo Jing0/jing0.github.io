@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 如何优雅地使用Vim？(实用篇)
 description: 如何优雅地使用Vim?关于Vim的一些实用的插件
 keywords: Vim,Sublime text,Atom,Plugin,实用,Vundle,,YouCompleteMe,ctrlp,usevim

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 解决升级到OSX Mavericks后锐捷客户端无法使用的问题
 description: 解决升级到OSX Mavericks后锐捷客户端无法使用的问题
 keywords: Mac,App,锐捷，ruijie,MentoHust,Mavericks

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 450年前的莎士比亚与450年后的文化审查
 description: 读了《哈姆雷特》和《罗密欧与朱丽叶》，以及关于文化的一些思考
 keywords: 审查,莎士比亚,Shakespeare,哈姆雷特,Hamlet

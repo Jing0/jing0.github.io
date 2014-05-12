@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "领航者"
 category: "Think"
 tagline: --read & think

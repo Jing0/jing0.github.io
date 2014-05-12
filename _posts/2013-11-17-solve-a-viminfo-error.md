@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: .viminfo出错的解决方法
 description: .viminfo出错的解决方法
 keywords: Vim,viminfo,terminal

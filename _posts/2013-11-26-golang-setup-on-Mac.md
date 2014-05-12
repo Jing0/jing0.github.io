@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Mac OS X下Go语言环境搭建过程及遇见的一些问题
 category: Code
 tagline: --read & think

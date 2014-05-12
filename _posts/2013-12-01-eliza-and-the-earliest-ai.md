@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 从Emacs Doctor到ELIZA，看早期的人工智能
 description: 从Emacs Doctor到Eliza，分析早期的人工智能与Lisp
 keywords: Emacs,Eliza,Lisp,AI，人工智能,Mac,Terminal

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 关闭Mac OS X的Dashboard和Spotlight
 category: Mac
 tagline: --read & think

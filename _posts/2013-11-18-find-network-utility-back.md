@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 找回OS X Mavericks中的网络实用工具
 description: 找回OS X Mavericks 10.9 中隐藏的网络实用工具
 keywords: terminal,utility,mac,网络实用工具

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Say Hello to Jekyll &amp; GitHub Pages!
 category: Think
 tagline: --read & think

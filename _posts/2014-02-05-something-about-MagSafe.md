@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 解决MacBook Pro电池无法充电的问题
 category: life
 tagline: --read & think

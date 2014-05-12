@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: All over again
 category: Think
 tagline: --read & think

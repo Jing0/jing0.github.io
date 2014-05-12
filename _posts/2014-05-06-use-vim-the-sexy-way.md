@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 如何优雅地使用Vim？(美化篇)
 description: 如何优雅地使用Vim?关于Vim的美化
 keywords: Vim,Sublime text,Atom,Plugin,Solarized,Powerline,icon,美化

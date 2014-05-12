@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 如何优雅地使用Vim？(趣味篇)
 description: 如何优雅地使用Vim?关于Vim的有趣的用法
 keywords: Vim,Sublime text,Atom,Plugin
