@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 我们应该如何对待技术信仰？
 description: I Love Vim,I Love Chrome,I Love GitHub
 keywords: glory,programmer,religion,fatith
