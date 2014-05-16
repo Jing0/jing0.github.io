@@ -13,6 +13,7 @@ title : Atom Feed
  <author>
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
+   <url>{{ site.production_url }}</url>
  </author>
 
  {% for post in site.posts %}
