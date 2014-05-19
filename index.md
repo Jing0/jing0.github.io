@@ -17,6 +17,7 @@ tagline: --read & think
 
 ## Projects
 
+* [My Class](http://class.jackiekuo.com/)--a website for my class
 * [Web Terminal](http://web-terminal.qiniudn.com/)-- a Terminal Simulator based on web page
 * [Happy New Year](http://happy-new-year-from-jackie.u.qiniudn.com/)-- a web page to celebrate new year's coming
 * [Web Bookmarks](http://mybookmarks.u.qiniudn.com/)-- just a web page for myself
