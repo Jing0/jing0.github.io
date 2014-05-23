@@ -46,6 +46,7 @@ tagline: --I am crazy,you know
 * 2014-04-25 <del>Startup Weekend: how to take a company from conception to creation in 54 hours</del>
 * 2014-04-25 <del>[Hamlet](http://jackiekuo.com/book/2014/04/27/talk-about-shakespeare-and-culture/)</del>
 * 2014-04-26 <del>[Romeo and Juliet](http://jackiekuo.com/book/2014/04/27/talk-about-shakespeare-and-culture/)</del>
+* 2014-05-23 <del>从缺陷中学习C/C++</del>
 * 1984
 * 浪潮之巅
 * Objective-C编程
