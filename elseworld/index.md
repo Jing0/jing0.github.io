@@ -49,6 +49,7 @@ tagline: --I am crazy,you know
 * 2014-05-23 <del>从缺陷中学习C/C++</del>
 * 2014-05-26 <del>Facebook : 关于性、金钱、天才和背叛</del>
 * 2014-05-27 <del>选择的智慧</del>
+* 2014-05-28 <del>生于1971</del>
 * 1984
 * 浪潮之巅
 * Objective-C编程
