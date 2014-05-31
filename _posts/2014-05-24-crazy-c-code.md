@@ -40,6 +40,6 @@ C语言是最强大的语言之一。但是到底它的强大表现在何处？�
 
 ##One More Thing
 
-国际上还有个专门的比赛[IOCCC-The International Obfuscated C Code Contest](http://www.ioccc.org/index.html)，评选那些最奇怪最疯狂最有创意的C语言代码，到去年已经举办22届了。这些代码有的是图画，有的输出一些奇怪的东西，当然，它们都能完美地运行！
+国际上还有个专门的比赛[IOCCC-The International Obfuscated C Code Contest](http://www.ioccc.org/index.html)，评选那些最奇怪最疯狂最有创意的C语言代码，截至去年已经举办22届了。这些代码有的是图画，有的输出一些奇怪的东西，当然，它们都能完美地运行！
 
 程序员玩起来创意，是谁也比不过的！
