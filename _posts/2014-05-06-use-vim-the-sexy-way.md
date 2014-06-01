@@ -13,7 +13,7 @@ tags: [Vim,Code,Trivia]
 
 Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党员都招架不住，拜倒在其<del>石榴裙</del>下。一时间，党心大乱。
 
-淡定，淡定。纵使Sublime Text和Atom能以其华丽的外表蛊惑众人，不也是其配色方案和一些组件的功劳么？给Vim美化一下不就行了吗？
+淡定，淡定。纵使Sublime Text和Atom能以其华丽的外表蛊惑众人，不也只是其配色方案和一些组件的功劳么？给Vim美化一下不就行了吗？
 
 ###Solarized
 
