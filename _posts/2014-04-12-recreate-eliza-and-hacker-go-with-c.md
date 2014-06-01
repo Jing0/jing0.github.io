@@ -13,7 +13,7 @@ tags: [Code,Eliza,hacker go,Emacs,C]
 
 不过毕竟只是是简单分析，如果亲自尝试过的话，你就会知道，在处理一些复杂语句时Eliza就不只是针对某些关键词做出冰冷死板的特定回应了。
 
-昨天花了几个小时用C写了一个简单版本的Eliza，实现了最基本的功能——对某些关键词做出简单回应，我已经把它放在了Github上，以后有空就改进[点击查看Eliza](https://github.com/Jing0/Eliza)。
+昨天花了几个小时用C写了一个简单版本的Eliza，实现了最基本的功能——对某些关键词做出简单回应，我已经把它放在了GitHub上，以后有时间就继续改进[点击查看Eliza](https://github.com/Jing0/Eliza)。
 
 ![Eliza in c](http://pic.yupoo.com/jok3r/DG01itX7/medish.jpg)
 
@@ -21,4 +21,4 @@ tags: [Code,Eliza,hacker go,Emacs,C]
 
 ![Hacker Go](http://pic.yupoo.com/jok3r/DG01kQRr/medish.jpg)
 
-![Hacker Go](http://pic.yupoo.com/jok3r/DG01jQAK/medish.jpg)
+![Hacker Go](http://pic.yupoo.com/jok3r/DG01jQAK/medish.jpg
