@@ -3,7 +3,7 @@ layout: post
 title: 解决MacBook Pro电池无法充电的问题
 category: life
 tagline: --read & think
-tags : [MagSafe,Mac]
+tags : [Mac]
 ---
 {% include JB/setup %}
 

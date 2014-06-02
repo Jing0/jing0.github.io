@@ -5,7 +5,7 @@ description: 用C语言重写Eliza。Eliza是早期的一项人工智能项目�
 keywords: Eliza,C,Chatbot,Code,代码,hacker
 category: Code
 tagline: --read & think
-tags: [Code,Eliza,hacker go,Emacs,C]
+tags: [Code,Emacs,C]
 ---
 {% include JB/setup %}
 
