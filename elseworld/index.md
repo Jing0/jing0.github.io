@@ -73,6 +73,13 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt2294629/">Frozen</a></del>    2014-03-29</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1170358/" target="_blank">The Hobbit: The Desolation of Smaug</a></del>    2014-04-06</li>
 <li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt0816711/" target="_blank">World War Z</a></del>    2014-04-06</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1430132/" target="_blank">World War Z</a></del>    2014-05-31</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1981115/" target="_blank">Thor: The Dark World</a></del>    2014-05-31</li>
+<li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1622547/" target="_blank">30 Minutes or Less</a></del>    2014-05-31</li>
+<li>&#9733;&#9734;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1731141/" target="_blank">Ender's Game</a></del>    2014-05-31</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0137523/" target="_blank">Fight Club</a></del>    2014-06-01</li>
+<li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1860353/" target="_blank">Turbo</a></del>    2014-06-01</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0289879/" target="_blank">The Butterfly Effect</a></del>    2014-06-02</li>
 </ul>
 
 ![GeekMe--My Draft!!](http://pic.yupoo.com/jok3r/DyinVQrF/medish.jpg)
