@@ -80,6 +80,7 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0137523/" target="_blank">Fight Club</a></del>    2014-06-01</li>
 <li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1860353/" target="_blank">Turbo</a></del>    2014-06-01</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0289879/" target="_blank">The Butterfly Effect</a></del>    2014-06-02</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1490017/" target="_blank">The Lego Movie</a></del>    2014-06-06</li>
 </ul>
 
 ![GeekMe--My Draft!!](http://pic.yupoo.com/jok3r/DyinVQrF/medish.jpg)
