@@ -52,6 +52,7 @@ tagline: --I am crazy,you know
 * 2014-05-28 <del>生于1971</del>
 * 2014-06-12 <del>冰与火之歌（卷一）——权力的游戏（上）</del>
 * 2014-06-14 <del>思考的乐趣：Matrix67数学笔记</del>
+* 2014-06-15 <del>当我们谈论爱情时我们在谈论什么</del>
 * 1984
 * 浪潮之巅
 * Objective-C编程
@@ -73,7 +74,7 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt2294629/">Frozen</a></del>    2014-03-29</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1170358/" target="_blank">The Hobbit: The Desolation of Smaug</a></del>    2014-04-06</li>
 <li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt0816711/" target="_blank">World War Z</a></del>    2014-04-06</li>
-<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1430132/" target="_blank">World War Z</a></del>    2014-05-31</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1430132/" target="_blank">The Wolverine</a></del>    2014-05-31</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1981115/" target="_blank">Thor: The Dark World</a></del>    2014-05-31</li>
 <li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1622547/" target="_blank">30 Minutes or Less</a></del>    2014-05-31</li>
 <li>&#9733;&#9734;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1731141/" target="_blank">Ender's Game</a></del>    2014-05-31</li>
