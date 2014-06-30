@@ -83,6 +83,9 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9734;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt1860353/" target="_blank">Turbo</a></del>    2014-06-01</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0289879/" target="_blank">The Butterfly Effect</a></del>    2014-06-02</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt1490017/" target="_blank">The Lego Movie</a></del>    2014-06-06</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="www.imdb.com/title/tt1843866/" target="_blank">Captain America 2</a></del>    2014-06-30</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt3060952/" target="_blank">Justice League: War</a></del>    2014-06-30</li>
+<li>&#9733;&#9733;&#9733;&#9734;&#9734;<del><a href="http://www.imdb.com/title/tt0382625/" target="_blank">The Da Vinci Code</a></del>    2014-06-30</li>
 </ul>
 
 ![GeekMe--My Draft!!](http://pic.yupoo.com/jok3r/DyinVQrF/medish.jpg)
