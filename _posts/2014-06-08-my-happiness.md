@@ -4,7 +4,7 @@ title: 面朝代码，春暖花开
 description: 小破诗一首
 keywords: 
 catagory: Life
-tags: [code,life]
+tags: [Code,Life]
 ---
 {% include JB/setup %}
 
