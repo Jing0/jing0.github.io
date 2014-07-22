@@ -95,6 +95,10 @@ You can also find me on [GitHub](http://github.com/jing0), [DouBan](http://www.d
 			<span class="time">2013</span>
 			<div class="event">Entered ZhengZhou University</div>
 		</div>
+		<div class="time-item">
+			<span class="time">2014</span>
+			<div class="event">Became a ACMer,and learned Python and Objective-C by myself</div>
+		</div>
 </div>
 
 ![image](http://jing0-github-io.qiniudn.com/QR.png)
