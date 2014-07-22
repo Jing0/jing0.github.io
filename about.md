@@ -9,7 +9,7 @@ I'm **Jackie Kuo**, a student at Zhengzhou University majoring in Computer Scien
 
 If you want to get in touch with me, you can [email me](mailto:J.Kuo2012@gmail.com).
 
-You can also find me on [GitHub](http://github.com/jing0), [DouBan](http://www.douban.com/people/63014196/).
+You can also find me on [GitHub](http://github.com/jing0), [DouBan](http://www.douban.com/people/jackiekuo/).
 
 ## Projects
 
