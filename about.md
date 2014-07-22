@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-I'm ** Jackie Kuo **, a student at Zhengzhou University majoring in Computer Science and Technology.
+I'm **Jackie Kuo**, a student at Zhengzhou University majoring in Computer Science and Technology.
 
 If you want to get in touch with me, you can [email me](mailto:J.Kuo2012@gmail.com).
 
