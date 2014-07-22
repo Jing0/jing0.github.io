@@ -40,7 +40,7 @@ You can also find me on [GitHub](http://github.com/jing0), [DouBan](http://www.d
 	position: relative;
 	display: inline-block;
 	zoom: 1;
-	margin-right: 40px;
+	margin-right: 30px;
 }
 .time {
 	display: block;
@@ -97,7 +97,7 @@ You can also find me on [GitHub](http://github.com/jing0), [DouBan](http://www.d
 		</div>
 		<div class="time-item">
 			<span class="time">2014</span>
-			<div class="event">Became a ACMer,and learned Python and Objective-C by myself</div>
+			<div class="event">Became a ACMer, and learned Python and Objective-C by myself</div>
 		</div>
 </div>
 
