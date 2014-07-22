@@ -13,11 +13,15 @@ tagline: --I am crazy,you know
 
 --Tiny Wings
 
+<!--
+
 <audio controls="controls" height="100" width="100">
 			<source src="test.mp3" type="audio/mp3" />
 			<source src="test.ogg" type="audio/ogg" />
 			<embed height="100" width="100" src="test.mp3" />
 </audio>
+
+-->
 
 ### &hearts;My Favorite
 
