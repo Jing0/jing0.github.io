@@ -102,6 +102,7 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0268978/" target="_blank">A beautiful mind</a></del>    2014-07-16</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0213847/" target="_blank">Malèna</a></del>    2014-07-19</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1859505/" target="_blank">How Did They Ever Make a Movie of Facebook?</a></del>    2014-07-20</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0993846/" target="_blank">The Wolf of Wall Street</a></del>    2014-07-23</li>
 </ul>
 
 
