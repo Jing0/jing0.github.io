@@ -59,6 +59,7 @@ tagline: --I am crazy,you know
 * 2014-06-15 <del>当我们谈论爱情时我们在谈论什么</del>
 * 2014-06-22 <del>冰与火之歌：七国的骑士（外传）</del>
 * 2014-07-13 <del>冰与火之歌（卷一）——权力的游戏（中）</del>
+* 2014-07-28 <del>莫泊桑短篇小说精选</del>
 * 1984
 * 浪潮之巅
 * Objective-C编程
@@ -103,6 +104,8 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0213847/" target="_blank">Malèna</a></del>    2014-07-19</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1859505/" target="_blank">How Did They Ever Make a Movie of Facebook?</a></del>    2014-07-20</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0993846/" target="_blank">The Wolf of Wall Street</a></del>    2014-07-23</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0110413/" target="_blank">Léon</a></del>    2014-07-25</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1187043/" target="_blank">3 Idiots</a></del>    2014-07-26</li>
 </ul>
 
 
