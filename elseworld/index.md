@@ -60,7 +60,7 @@ tagline: --I am crazy,you know
 * 2014-06-22 <del>冰与火之歌：七国的骑士（外传）</del>
 * 2014-07-13 <del>冰与火之歌（卷一）——权力的游戏（中）</del>
 * 2014-07-28 <del>莫泊桑短篇小说精选</del>
-* 1984
+* 2014-07-31 <del>1984</del>
 * 浪潮之巅
 * Objective-C编程
 * 自控力
@@ -106,6 +106,7 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt0993846/" target="_blank">The Wolf of Wall Street</a></del>    2014-07-23</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0110413/" target="_blank">Léon</a></del>    2014-07-25</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1187043/" target="_blank">3 Idiots</a></del>    2014-07-26</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt3268458/" target="_blank">The Internet's Own Boy: The Story of Aaron Swartz</a></del>    2014-07-30</li>
 </ul>
 
 
