@@ -61,6 +61,10 @@ tagline: --I am crazy,you know
 * 2014-07-13 <del>冰与火之歌（卷一）——权力的游戏（中）</del>
 * 2014-07-28 <del>莫泊桑短篇小说精选</del>
 * 2014-07-31 <del>1984</del>
+* 2014-08-02 <del>沉沦</del>
+* 2014-08-11 <del>三体</del>
+* 2014-08-13 <del>冰与火之歌（卷一）——权力的游戏（下）</del>
+* 2014-08-14 <del>Rework</del>
 * 浪潮之巅
 * Objective-C编程
 * 自控力
@@ -107,6 +111,8 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt0110413/" target="_blank">Léon</a></del>    2014-07-25</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1187043/" target="_blank">3 Idiots</a></del>    2014-07-26</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt3268458/" target="_blank">The Internet's Own Boy: The Story of Aaron Swartz</a></del>    2014-07-30</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt2820466/" target="_blank">Justice League: The Flashpoint Paradox</a></del>    2014-08-01</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1981107/" target="_blank">L'extravagant voyage du jeune et prodigieux T.S. Spivet</a></del>    2014-08-10</li>
 </ul>
 
 
