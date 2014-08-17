@@ -122,23 +122,17 @@ Gnu Emacs 20.2.2中Emacs Doctor源代码：[点击查看](http://www.csee.umbc.e
 
 参考资料：
 
-[Need A Psychiatrist? Meet Eliza
-](http://marcelgagne.com/content/need-psychiatrist-meet-eliza)
+[Need A Psychiatrist? Meet Eliza](http://marcelgagne.com/content/need-psychiatrist-meet-eliza)
 
-[Meet The Emacs Doctor
-](http://marcelgagne.com/content/meet-emacs-doctor)
+[Meet The Emacs Doctor](http://marcelgagne.com/content/meet-emacs-doctor)
 
-[Wikipedia—ELIZA
-](http://en.wikipedia.org/wiki/ELIZA)
+[Wikipedia—ELIZA](http://en.wikipedia.org/wiki/ELIZA)
 
-[Wikipedia—ELIZA Effect
-](http://en.wikipedia.org/wiki/ELIZA_effect)
+[Wikipedia—ELIZA Effect](http://en.wikipedia.org/wiki/ELIZA_effect)
 
-[Wikipedia—Joseph Weizenbaum
-](http://en.wikipedia.org/wiki/Joseph_Weizenbaum)
+[Wikipedia—Joseph Weizenbaum](http://en.wikipedia.org/wiki/Joseph_Weizenbaum)
 
-[CSEE.UMBC.EDU
-](http://www.csee.umbc.edu/courses/471/papers/)
+[CSEE.UMBC.EDU](http://www.csee.umbc.edu/courses/471/papers/)
 
 [面对互联网：我们已经丧失了人性](http://lz.book.sohu.com/chapter-19176-114681445.html)
 

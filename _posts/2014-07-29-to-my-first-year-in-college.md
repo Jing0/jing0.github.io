@@ -45,7 +45,7 @@ tags: [Think,Read,Life,ACM]
 
 寒假看完《黑客与画家》后，我不得不承认这是自己从高一以来，遇到的最好的书。一方面是因为这本书确实值得一读，另一方面是我整个高中读过的书用十根手指就能数得过来（当然不包括课本、杂志什么的）。
 
-然后我意识到是时候给自己充充电了。在大一下学期，除了编程书，我读过[《高效能程序员的修炼》](http://book.douban.com/subject/24868904/)、[《高效程序员的45个习惯 》](http://book.douban.com/subject/4164024/)这样偏技术的书，也读过[《麦田里的守望者》](http://book.douban.com/subject/4894485/)、[《当我们谈论爱情时我们在谈论什么》](http://book.douban.com/subject/4010969/)这样的小说，还花了一点时间把[《悟空传》](http://book.douban.com/subject/6431994/)和[《超人：红色之子》](http://book.douban.com/subject/1920926/)这样的童年最爱又重新看了一遍,，最后还拜读了池建强的[《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/)。
+然后我意识到是时候给自己充充电了。在大一下学期，除了编程书，我读过[《高效能程序员的修炼》](http://book.douban.com/subject/24868904/)、[《高效程序员的45个习惯 》](http://book.douban.com/subject/4164024/)这样偏技术的书，也读过[《麦田里的守望者》](http://book.douban.com/subject/4894485/)、[《当我们谈论爱情时我们在谈论什么》](http://book.douban.com/subject/4010969/)这样的小说，还花了一点时间把[《悟空传》](http://book.douban.com/subject/6431994/)和[《超人：红色之子》](http://book.douban.com/subject/1920926/)这样的童年最爱又重新看了一遍，最后还拜读了池建强的[《MacTalk 人生元编程》](http://book.douban.com/subject/25826578/)。
 
 就这样，大一我重新拾起了丢失多年的阅读习惯。
 
