@@ -8,8 +8,7 @@ tagline: --read & think
 tags : [Code,Vim,iOS,App]
 ---
 
-某一天，某个菜鸟coder发了一个帖子，“我是一个程序员新手，我是应该用Vi呢还是Emacs呢？”，于是乎，引发了程序员圈界一场旷日持久的战争－－[编辑器之战](http://zh.wikipedia.org/zh-cn/%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%8B%E6%88%98)
-。
+某一天，某个菜鸟coder发了一个帖子，“我是一个程序员新手，我是应该用Vi呢还是Emacs呢？”，于是乎，引发了程序员圈界一场旷日持久的战争－－[编辑器之战](http://zh.wikipedia.org/zh-cn/%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%8B%E6%88%98)。
 
 以上纯属虚构。
 

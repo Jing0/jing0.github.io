@@ -84,9 +84,9 @@ tags : [Algorithm,Code,Emacs,Trivia]
 <p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Have you been a friend of Stallman?</p>
 所以说，当你问About Stallman时,它会回复一个带有Stallman的句子。
 
-请注意，“Stallman”，是大写“S”的，而在Doctor里一般情况下名字是不可能出现大写字母开头的，如问的是”Tom“，会输出”tom“。这个也算是个彩蛋吧！向自由软件致敬！
+请注意，“Stallman”，是大写“S”的，而在Doctor里一般情况下名字是不可能出现大写字母开头的，如问的是“Tom”，会输出“tom”。这个也算是个彩蛋吧！向自由软件致敬！
 
-每一个”doctor-put-meaning“对应一个函数defun和一个lst（list）
+每一个“doctor-put-meaning”对应一个函数defun和一个lst（list）
 
 #####输出过程探究
 

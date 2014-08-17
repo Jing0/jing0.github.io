@@ -21,4 +21,4 @@ tags: [Code,Emacs,C]
 
 ![Hacker Go](http://pic.yupoo.com/jok3r/DG01kQRr/medish.jpg)
 
-![Hacker Go](http://pic.yupoo.com/jok3r/DG01jQAK/medish.jpg
+![Hacker Go](http://pic.yupoo.com/jok3r/DG01jQAK/medish.jpg)
