@@ -83,9 +83,9 @@ tags: [Read,Think,Book,Life]
 
 >Mrs. Gump: *You're gonna have to figure that out for yourself. Life is a box of chocolates, Forrest. You never know what you're gonna to get.*
 
-阿甘母亲著名的`巧克力人生论`或许没有使阿甘搞明白自己的命运到底是怎样。但是人生可以很精彩，但你要自己去发现，而不是等着命运，你永远也不知道自己会遇到什么。
+阿甘母亲著名的`巧克力人生论`或许没有使阿甘搞明白自己的命运到底是怎样。但是人生可以很精彩，但你要自己去发现，而不是等着命运。你永远也不知道自己会遇到什么。
 
-Jenny已死，阿甘在她的墓前说，
+珍妮已死，阿甘在她的墓前说，
 
 >*Jenny, I don't know if mama was right or if it's Lieutenant Dan. I don't know if we each have a destiny, or if we're all just floating around accidental-like on a breeze. But I...I think maybe it's both. Maybe both is happening at the same time.*
 
