@@ -11,6 +11,10 @@ tags: [Read,Think,Book,Life]
 
 *这是去年写的一篇关于《阿甘正传》的影评，之前保存在Evernote里。现在修改后贴出来。*
 
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=34122894&sid=1770658453&mode=js"></script>
+
+<br>
+
 ![feather](http://pic.yupoo.com/jok3r/DZPweRdu/medish.jpg)
 
 第一次看《阿甘正传》，是在初三暑假。奇怪的是，我看完之后对于故事中阿甘的种种经历并没有太多的感觉，记忆最深的却是那根飘忽不定的羽毛。
@@ -87,9 +91,7 @@ Jenny已死，阿甘在她的墓前说，
 
 在电影的结尾，同样有一根羽毛与片头呼应，从阿甘的脚边重新启航，随风而动，飘向天空。不过如果你仔细看的话，就会发现这是一根新的羽毛了。你可以把它当作小福里斯特，也可以认为它是我们每个人。
 
-Just live your life for now.
-
-<embed src="http://www.xiami.com/widget/34122894_1770658453/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
+**Just live your life for now.**
 
 ###与电影无关
 
