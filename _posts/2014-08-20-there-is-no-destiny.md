@@ -13,8 +13,6 @@ tags: [Read,Think,Book,Life]
 
 <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=34122894&sid=1770658453&mode=js"></script>
 
-<br>
-
 ![feather](http://pic.yupoo.com/jok3r/DZPweRdu/medish.jpg)
 
 第一次看《阿甘正传》，是在初三暑假。奇怪的是，我看完之后对于故事中阿甘的种种经历并没有太多的感觉，记忆最深的却是那根飘忽不定的羽毛。
