@@ -1,8 +1,8 @@
 ---
 layout: post
 title: There is no destiny ——关于阿甘
-description: 这是去年写的一篇关于《阿甘正传》的影评，之前保存在Evernote里。
-keywords: forrest,gump,阿甘，阿甘后传,feather
+description: 这是去年写的一篇关于《阿甘正传》的影评，之前保存在Evernote里
+keywords: forrest,gump,阿甘,阿甘后传,feather
 category: book
 tagline: --read & think
 tags: [Read,Think,Book,Life]
