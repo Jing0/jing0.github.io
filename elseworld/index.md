@@ -65,6 +65,8 @@ tagline: --I am crazy,you know
 * 2014-08-11 <del>三体</del>
 * 2014-08-13 <del>冰与火之歌（卷一）——权力的游戏（下）</del>
 * 2014-08-14 <del>Rework</del>
+* 2014-08-21 <del>阿甘后传</del>
+* 2014-08-24 <del>冰与火之歌（卷二）——列王的纷争（上）</del>
 * 浪潮之巅
 * Objective-C编程
 * 自控力
