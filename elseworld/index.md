@@ -67,6 +67,7 @@ tagline: --I am crazy,you know
 * 2014-08-14 <del>Rework</del>
 * 2014-08-21 <del>阿甘后传</del>
 * 2014-08-24 <del>冰与火之歌（卷二）——列王的纷争（上）</del>
+* 2014-08-26 <del>马克·吐温中短篇小说选</del>
 * 浪潮之巅
 * Objective-C编程
 * 自控力
@@ -115,6 +116,7 @@ tagline: --I am crazy,you know
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt3268458/" target="_blank">The Internet's Own Boy: The Story of Aaron Swartz</a></del>    2014-07-30</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9734;<del><a href="http://www.imdb.com/title/tt2820466/" target="_blank">Justice League: The Flashpoint Paradox</a></del>    2014-08-01</li>
 <li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt1981107/" target="_blank">L'extravagant voyage du jeune et prodigieux T.S. Spivet</a></del>    2014-08-10</li>
+<li>&#9733;&#9733;&#9733;&#9733;&#9733;<del><a href="http://www.imdb.com/title/tt2194499/" target="_blank">About Time</a></del>    2014-08-25</li>
 </ul>
 
 

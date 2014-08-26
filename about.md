@@ -13,6 +13,7 @@ You can also find me on [GitHub](http://github.com/jing0), [DouBan](http://www.d
 
 ## Projects
 
+* [MD2HTML](https://github.com/Jing0/md2html)--a C implementation of the Markdown to HTML system
 * [My Class](http://class.jackiekuo.com/)--a website for my class
 * [Web Terminal](http://web-terminal.qiniudn.com/)-- a Terminal Simulator based on web page
 * [Happy New Year](http://happy-new-year-from-jackie.u.qiniudn.com/)-- a web page to celebrate new year's coming
