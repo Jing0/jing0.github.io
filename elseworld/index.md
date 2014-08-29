@@ -72,6 +72,8 @@ tagline: --I am crazy,you know
 * 2014-08-27 <del>人间词话</del>
 * 2014-08-27 <del>微时间管理术</del>
 * 2014-08-27 <del>创新五把刀</del>
+* 2014-08-28 <del>小城三月</del>
+* 2014-08-29 <del>厚黑学</del>
 * 浪潮之巅
 * Objective-C编程
 * 自控力
