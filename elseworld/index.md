@@ -74,6 +74,7 @@ tagline: --I am crazy,you know
 * 2014-08-27 <del>创新五把刀</del>
 * 2014-08-28 <del>小城三月</del>
 * 2014-08-29 <del>厚黑学</del>
+* 2014-09-06 <del>冰与火之歌（卷二）——列王的纷争（中）</del>
 * 浪潮之巅
 * Objective-C编程
 * 自控力
