@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>Poems</title>
+<style>
+body {
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	background-color: #FFFFFF;
+	padding-bottom: 30px;
+}
+
+body > *:first-child {
+	margin-top: 0 !important;
+}
+body > *:last-child {
+	margin-bottom: 0 !important;
+}
+
+.code {
+	font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+	line-height: 22px;
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 15px 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+a {
+	color: #0088CC;
+	text-decoration: none;
+}
+a:hover {
+	color:#005580;text-decoration:underline;
+}
+a.absent {
+	color: #CC0000;
+}
+a.anchor {
+	display: block;
+	padding-left: 30px;
+	margin-left: -30px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 30px 0 10px;
+	padding: 0;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	cursor: text;
+	position: relative;
+}
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+	text-decoration: none;
+}
+
+h1 tt, h1 code {
+	font-size: inherit;
+}
+
+h2 tt, h2 code {
+	font-size: inherit;
+}
+
+h3 tt, h3 code {
+	font-size: inherit;
+}
+
+h4 tt, h4 code {
+	font-size: inherit;
+}
+
+h5 tt, h5 code {
+	font-size: inherit;
+}
+
+h6 tt, h6 code {
+	font-size: inherit;
+}
+
+h1 {
+	font-size: 34px;
+	color: black;
+}
+
+h2 {
+	font-size: 27px;
+	color: black;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	color: #777777;
+	font-size: 12px;
+}
+
+blockquote {
+	margin: 30px 0;
+}
+p, ol, dl, ul, li, table, pre {
+	margin: 14px 0;
+}
+
+hr {
+	border: 0;
+	border-top: 2px solid #CCCCCC;
+	border-bottom: 1px solid #FFFFFF;
+	height: 4px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+strong {
+	font-weight:900
+}
+
+body > h2:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+body > h1:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+body > h1:first-child + h2 {
+	margin-top: 0;
+    padding-top: 0;
+}
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+	margin-top: 0;
+}
+
+li p.first {
+	display: inline-block;
+}
+li {
+	margin: 0;
+}
+ul, ol {
+	padding-left: 30px;
+}
+
+ul :first-child, ol :first-child {
+	margin-top: 0;
+}
+
+dl {
+	padding: 0;
+}
+dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px;
+}
+dl dt:first-child {
+    padding: 0;
+}
+dl dt > :first-child {
+    margin-top: 0;
+}
+dl dt > :last-child {
+    margin-bottom: 0;
+}
+dl dd {
+	margin: 0 0 15px;
+    padding: 0 15px;
+}
+dl dd > :first-child {
+	margin-top: 0;
+}
+dl dd > :last-child {
+	margin-bottom: 0;
+}
+
+blockquote {
+	border-left: 4px solid #DDDDDD;
+	padding: 0 15px;
+	color: #777777;
+}
+blockquote > :first-child {
+	margin-top: 0;
+}
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+table {
+	padding: 0;
+	border-collapse: collapse;
+}
+table tr {
+	border-top: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+table tr:nth-child(2n) {
+	background-color: #F8F8F8;
+}
+table tr th {
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+	margin: 0;
+	padding: 6px 13px;
+}
+table tr td {
+	border: 1px solid #CCCCCC;
+	margin: 0;
+	padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+	margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+	margin-bottom: 0;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	-moz-box-shadow: 3px 3px 10px #333;
+	-webkit-box-shadow: 3px 3px 10px #333;
+	box-shadow: 3px 3px 10px #333;
+}
+
+span.frame {
+	display: block;
+	overflow: hidden;
+}
+span.frame > span {
+	border: 1px solid #DDDDDD;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 13px 0 0;
+	padding: 7px;
+	width: auto;
+}
+span.frame span img {
+	display: block;
+	float: left;
+}
+span.frame span span {
+	clear: both;
+	color: #333333;
+	display: block;
+	padding: 5px 0 0;
+}
+span.align-center {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+span.align-center > span {
+	display: block;
+	overflow: hidden;
+	margin: 13px auto 0;
+	text-align: center;
+}
+span.align-center span img {
+	margin: 0 auto;
+	text-align: center;
+}
+span.align-right {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+span.align-right > span {
+	display: block;
+	overflow: hidden;
+	margin: 13px 0 0;
+	text-align: right;
+}
+span.align-right span img {
+	margin: 0;
+	text-align: right;
+}
+span.float-left {
+	display: block;
+	margin-right: 13px;
+	overflow: hidden;
+	float: left;
+}
+span.float-left span {
+	margin: 13px 0 0;
+}
+span.float-right {
+	display: block;
+	margin-left: 13px;
+	overflow: hidden;
+	float: right;
+}
+span.float-right > span {
+	display: block;
+	overflow: hidden;
+	margin: 13px auto 0;
+	text-align: right;
+}
+
+pre code {
+	margin: 0;
+	padding: 0;
+	color: #053DF5;
+	white-space: pre;
+	border: none;
+	background: transparent;
+}
+
+code, tt {
+	margin: 0 2px;
+	padding: 2px 5px;
+	white-space: nowrap;
+	color: #D14;
+	border: 1px solid #E1E1E8;
+	background-color: #F7F7F9;
+	border-radius: 3px;
+}
+
+.page-title {
+	float: right;
+	margin: 20px;
+	font-size: 35px;
+	font-weight: 900;
+}
+sub {
+	font-weight:100;
+}
+
+.highlight pre {
+	background-color: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	font-size: 16px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+
+pre {
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	font-size: 15px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+pre code, pre tt {
+	background-color: transparent;
+	border: none;
+}
+
+sup {
+	font-size: 0.83em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+	body {
+		width: 854px;
+		margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+</head>
+<body>
+<img src="./Tom-Hiddleston2.jpeg" >
+<br>
+<span class="page-title"><i>Tom Hiddleston Reads Poems<i></span>
+<br><br><br><br>
+<h2>May I feel said he<sub>&nbsp;&nbsp;&nbsp;by E.E.Cummings</sub></h2>
+<audio src="http://qd.baidupcs.com/file/9203091910e6158723ef080804dd536f?fid=1728820176-250528-58834816327537&time=1410619894&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-hG3TO6%2FQmJ%2FwRBUAHL1cQC433Xc%3D&to=qb&fm=Qin,B,U,nc&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=797228410&mlogid=1265998842&vuk=1728820176&vbdid=3206418553&fn=May%20I%20feel%20said%20he.mp3" controls></audio>
+<h2>Sonnet 18<sub>&nbsp;&nbsp;&nbsp;by William Shakespeare</sub></h2>
+<audio src="http://122.191.127.40/ws.cdn.baidupcs.com/file/102a9e5f14bc2cca8df72a307e3beadc?xcode=35b36b15a65c73d3eb430c34c7c6e22cf9a60af4a8d3fe32837047dfb5e85c39&fid=1728820176-250528-293462600071259&time=1410625466&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-E%2FW4AMJxwtatD8u5RBBX0TEqrMM%3D&to=sc&fm=Nan,B,U,nc&sta_dx=3&sta_cs=24&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=389531164&mlogid=1898698683&vuk=1728820176&vbdid=3206418553&fn=Sonnet%2018.mp3&wshc_tag=0&wsts_tag=54146fba&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<!--
+<h2>Funeral Blues<sub>&nbsp;&nbsp;&nbsp;by W.H.Auden</sub></h2>
+<audio src="http://nb.baidupcs.com/file/6a0274e0d310c65a3b1bdd0faae65b7c?fid=1728820176-250528-899752426220796&time=1410621026&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-QaIjTfcrinJtVoCbvGqXALYSBF4%3D&to=nbb&fm=Nin,B,U,nc&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=304499289&mlogid=1999893986&vuk=1728820176&vbdid=3206418553&fn=Funeral%20Blues%20by%20W.%20H.%20Auden.mp3" controls></audio>
+-->
+<!--
+<h2>Bright Star<sub>&nbsp;&nbsp;&nbsp;by John Keats</sub></h2>
+<audio src="http://122.143.27.194/ws.cdn.baidupcs.com/file/774502fb7ea1671da4f6339e11bf430d?xcode=6b0978ece528973a1f40c98c7c4d6230711acfc90901858e0b2977702d3e6764&fid=1728820176-250528-177998712107321&time=1410623720&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-sDiAp5AyhGIqwY5L1G2utRdoAtw%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=20&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=383220950&mlogid=3760774535&vuk=1728820176&vbdid=3206418553&fn=01%20Bright%20Star%20by%20John%20Keats.mp3&wshc_tag=0&wsts_tag=541468e8&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<h2>As I Walked Out One Evening<sub>&nbsp;&nbsp;&nbsp;by W.H.Auden</sub></h2>
+<audio src="http://222.140.155.14/ws.cdn.baidupcs.com/file/8b5bfb2af706425717fb59bab03d40e9?xcode=37cce24ce54b6ee85e5246990c50639a928cd81e7225a706837047dfb5e85c39&fid=1728820176-250528-1018689819497359&time=1410623834&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-QVMBV8Leow37cTAnkOgJxQfkjbY%3D&to=sc&fm=Nan,B,U,nc&sta_dx=2&sta_cs=16&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=514235217&mlogid=2961716941&vuk=1728820176&vbdid=3206418553&fn=02%20As%20I%20Walked%20Out%20One%20Evening%20by%20W..mp3&wshc_tag=0&wsts_tag=5414695b&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<h2>There Is A Lady Sweet And Kind<sub>&nbsp;&nbsp;&nbsp;by Anonymous</sub></h2>
+<audio src="http://122.143.27.193/ws.cdn.baidupcs.com/file/34857cacdd061ff6f6a552988e7a6ad8?xcode=4140c566798940c3c2b70b552c5017c9024206fd7f60a6e1&fid=1728820176-250528-774524077166178&time=1410623969&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-Ys3w0JGZk67P6732EudLN5K3nTo%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=16&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=155711222&mlogid=3238325672&vuk=1728820176&vbdid=3206418553&fn=03%20There%20Is%20A%20Lady%20Sweet%20And%20Kind%20by.mp3&wshc_tag=0&wsts_tag=541469e2&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<h2>Down By The Sally Gardens<sub>&nbsp;&nbsp;&nbsp;by W.B.Yeats</sub></h2>
+<audio src="http://219.154.65.179/ws.cdn.baidupcs.com/file/70135e2bed0ed6a999554b25b187fb79?xcode=b4daf148996284856991d09308c18407222af7b3890a47480b2977702d3e6764&fid=1728820176-250528-104172752295453&time=1410624034&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-tqsKTRBBB2SgJv7neirf4EqfvAs%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=980872089&mlogid=3857049832&vuk=1728820176&vbdid=3206418553&fn=04%20Down%20By%20The%20Sally%20Gardens%20by%20W.%20B.mp3&wshc_tag=0&wsts_tag=54146a22&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<h2>She Walks in Beauty<sub>&nbsp;&nbsp;&nbsp;by Lord Byron</sub></h2>
+<audio src="http://61.54.7.18/ws.cdn.baidupcs.com/file/b80ec9d0f1b1b5d9406172fd124d0455?xcode=2d87e78ba8fe68f997c2ef997603661395f94630197c106b837047dfb5e85c39&fid=1728820176-250528-180671056983870&time=1410624251&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-XttwSAUuPox1IBcwvJ%2BU8joKYDQ%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=17&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=838434672&mlogid=3902189184&vuk=1728820176&vbdid=3206418553&fn=05%20She%20Walks%20In%20Beauty%20by%20Lord%20Byron.mp3&wshc_tag=0&wsts_tag=54146afe&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<!--
+<h2>Dover Beach<sub>&nbsp;&nbsp;&nbsp;by Matthew Arnold</sub></h2>
+<audio src="http://219.154.65.179/ws.cdn.baidupcs.com/file/047d53a751388ed3cd95c0c4bdaf80bf?xcode=069e71e157a541598113a0e75c026d7a8c0cb97ab82b80fc837047dfb5e85c39&fid=1728820176-250528-273738609393964&time=1410624405&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-794DOIx9WZR%2FTb30o1QSWBKFK6k%3D&to=sc&fm=Nan,B,U,nc&sta_dx=2&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=290624007&mlogid=828026136&vuk=1728820176&vbdid=3206418553&fn=06%20Dover%20Beach%20by%20Matthew%20Arnold.mp3&wshc_tag=0&wsts_tag=54146b96&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<h2>Love And Friendship<sub>&nbsp;&nbsp;&nbsp;by Emily Bronte</sub></h2>
+<audio src="http://61.54.7.19/ws.cdn.baidupcs.com/file/2f60d781d55dab654783a2ca090b0e30?xcode=069e71e157a54159167e9216a70aa51a7fe29db5bde3e101837047dfb5e85c39&fid=1728820176-250528-811254325216046&time=1410624464&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-IGRxMi4ItWdgPNcuEFpBB8Rxu3U%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=16&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=588822509&mlogid=2117971025&vuk=1728820176&vbdid=3206418553&fn=07%20Love%20And%20Friendship%20by%20Emily%20Bron.mp3&wshc_tag=0&wsts_tag=54146bd3&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<!--
+<h2>From The Princess<sub>&nbsp;&nbsp;&nbsp;by Alfred Lord</sub></h2>
+<audio src="http://182.118.73.27/ws.cdn.baidupcs.com/file/b2d1f00a24926f54edecefd5812b0cd0?xcode=82ce86f70f2d9b29516d69df6af03afc936195eeaec9bde1837047dfb5e85c39&fid=1728820176-250528-99349521554753&time=1410624511&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-76d6FtpySnuhHfYKqq8iaWupXd0%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=865050256&mlogid=3287910064&vuk=1728820176&vbdid=3206418553&fn=08%20From%20The%20Princess%20by%20Alfred%20Lord.mp3&wshc_tag=0&wsts_tag=54146bff&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<!--
+<h2>Sonnet 130<sub>&nbsp;&nbsp;&nbsp;by William Shakespeare</sub></h2>
+<audio src="http://122.191.127.44/ws.cdn.baidupcs.com/file/c523ba78db3e0c796c239aa80d9aa2fd?xcode=82ce86f70f2d9b290e57c3e1b92e90b7cfa64f8bfa6ec416837047dfb5e85c39&fid=1728820176-250528-16705610161429&time=1410624587&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-AOsg5As6kaFYJpVP1uCYGxq9TKM%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=26&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=607542629&mlogid=830484535&vuk=1728820176&vbdid=3206418553&fn=09%20Sonnet%20130%20by%20William%20Shakespeare.mp3&wshc_tag=0&wsts_tag=54146c4b&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<!--
+<h2>Sign No More from Much Ado About Nothing<sub>&nbsp;&nbsp;&nbsp;by William Shakespeare</sub></h2>
+<audio src="http://122.143.27.194/ws.cdn.baidupcs.com/file/325180f2f9247db452a0885e7c93d478?xcode=05f0ec93dfcc7d79a1a2ba01e120271afc03a5e895183d980b2977702d3e6764&fid=1728820176-250528-833401050695313&time=1410624630&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-3EQpdlkg8bWBvYjLdGo%2BKs6Sq3M%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=14&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=164205089&mlogid=3265372126&vuk=1728820176&vbdid=3206418553&fn=10%20Sign%20No%20More%20from%20Much%20Ado%20About.mp3&wshc_tag=0&wsts_tag=54146c77&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<!--
+<h2>The Duck And The Kangaroo<sub>&nbsp;&nbsp;&nbsp;by Edward</sub></h2>
+<audio src="http://219.154.65.178/ws.cdn.baidupcs.com/file/4acb1e960a1bea87d683dc1845bd8c49?xcode=3b42fada6e1fe794b8f2afd3c899db334e4f5653f8f76d93837047dfb5e85c39&fid=1728820176-250528-427227839162351&time=1410624704&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-NDN9KZLjjc74E0OByE%2FcioBr7S8%3D&to=sc&fm=Nan,B,U,nc&sta_dx=2&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=965650962&mlogid=1782437340&vuk=1728820176&vbdid=3206418553&fn=11%20The%20Duck%20And%20The%20Kangaroo%20by%20Edwa.mp3&wshc_tag=0&wsts_tag=54146cc1&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<h2>If Music Be The Food Of Love<sub>&nbsp;&nbsp;&nbsp;by William Shakespeare</sub></h2>
+<audio src="http://222.140.155.14/ws.cdn.baidupcs.com/file/bcdec09c1129d83df90a7eb0cbec0cf3?xcode=3b42fada6e1fe79464604cac3b556ff9efc077ed7b32df5e837047dfb5e85c39&fid=1728820176-250528-318925454707340&time=1410624751&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-FUGFaWrRDzvLGE1ayXRwrjXQMp8%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=551536536&mlogid=1797887826&vuk=1728820176&vbdid=3206418553&fn=12%20If%20Music%20Be%20The%20Food%20Of%20Love%20from.mp3&wshc_tag=0&wsts_tag=54146cef&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<!--
+<h2>He Wishes For The Colths Of Heaven<sub>&nbsp;&nbsp;&nbsp;by W.B.Yeats</sub></h2>
+<audio src="http://122.143.27.193/ws.cdn.baidupcs.com/file/d8279712e604ed87c83caa74af6021c1?xcode=45bc9a958c195ad9832fb5dd7e728874c75aa45d66538385837047dfb5e85c39&fid=1728820176-250528-228662517533821&time=1410624888&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-7aQ272q17fswtDRMDtOaLyuy0Jc%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=243388499&mlogid=1916261152&vuk=1728820176&vbdid=3206418553&fn=13%20He%20Wishes%20For%20The%20Colths%20Of%20Heave.mp3&wshc_tag=0&wsts_tag=54146d79&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<!--
+<h2>There Is No Woman's Sides<sub>&nbsp;&nbsp;&nbsp;by William Shakespeare</sub></h2>
+<audio src="http://219.154.65.183/ws.cdn.baidupcs.com/file/a9c04abcf764874e23ddabbf70e94424?xcode=9b71c745d41d37c41c1e01657b3dabcca6ae4fc3b030ead2837047dfb5e85c39&fid=1728820176-250528-343021993793682&time=1410624946&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-XLxw4o1yb0UDDLke4e262F4g2C8%3D&to=sc&fm=Nan,B,U,nc&sta_dx=2&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=303759617&mlogid=3232249383&vuk=1728820176&vbdid=3206418553&fn=14%20There%20Is%20No%20Woman%27s%20Sides%20from%20Tw.mp3&wshc_tag=0&wsts_tag=54146db3&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<!--
+<h2>We Will Go No More A Roving<sub>&nbsp;&nbsp;&nbsp;by Lord Byron</sub></h2>
+<audio src="http://122.143.27.194/ws.cdn.baidupcs.com/file/68f5cc836986eacd3553e17f5ee372af?xcode=00340c1c23e7fcd218b8425b6e8ef9d5a8b8bb3aa81faeb3837047dfb5e85c39&fid=1728820176-250528-1107172761730783&time=1410625031&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-L5Tn0hu2dDdTq73boEUowkZJTGM%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=16&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=824908378&mlogid=1128751739&vuk=1728820176&vbdid=3206418553&fn=15%20We%20Will%20Go%20No%20More%20A%20Roving%20by%20Lo.mp3&wshc_tag=0&wsts_tag=54146e0c&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<h2>When You Are Old<sub>&nbsp;&nbsp;&nbsp;by W.B.Yeats</sub></h2>
+<audio src="http://122.143.27.195/ws.cdn.baidupcs.com/file/ec26a8f7a59e79bc3894485378f5c8a0?xcode=00340c1c23e7fcd2c5e7c40b70252015dbf8d3793d4269860b2977702d3e6764&fid=1728820176-250528-158058210714560&time=1410625080&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-WkxuS1qxDd86yU9l8GKJ9txx7GQ%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=18&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=952011662&mlogid=1061943462&vuk=1728820176&vbdid=3206418553&fn=16%20When%20You%20Are%20Old%20by%20W.%20B.%20Yeats.mp3&wshc_tag=0&wsts_tag=54146e38&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+<!--
+<h2>Us Too<sub>&nbsp;&nbsp;&nbsp;by A.A.Milne</sub></h2>
+<audio src="http://222.140.155.18/ws.cdn.baidupcs.com/file/d0377ab6b53f7923db23d4fa29ead8b5?xcode=b44dc118c71a15fae4387a8964977c3f9c70eb810d7590970b2977702d3e6764&fid=1728820176-250528-773306208211823&time=1410625143&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-If%2F6kPRuQkSxnDc5jPT2ZXYY1H0%3D&to=sc&fm=Nan,B,U,nc&sta_dx=1&sta_cs=15&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=625902179&mlogid=825978245&vuk=1728820176&vbdid=3206418553&fn=17%20Us%20Too%20by%20A.%20A.%20Milne.mp3&wshc_tag=0&wsts_tag=54146e77&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<!--
+<h2>To His Coy Mistress<sub>&nbsp;&nbsp;&nbsp;by Andrew Marvell</sub></h2>
+<audio src="http://122.191.127.43/ws.cdn.baidupcs.com/file/cbf877f27289eef244ea2457c9cb1f6f?xcode=3d375d6f3ce8fd1a30b21498d10c26d6685af0e7c6261674837047dfb5e85c39&fid=1728820176-250528-81219172758458&time=1410625203&sign=FDTAXER-DCb740ccc5511e5e8fedcff06b081203-wUhzJ%2FQEvv9IZtWEwdtCkxAnTPI%3D&to=sc&fm=Nan,B,U,nc&sta_dx=2&sta_cs=18&sta_ft=mp3&sta_ct=0&newver=1&newfm=1&flow_ver=3&expires=8h&rt=sh&r=484181288&mlogid=2856122507&vuk=1728820176&vbdid=3206418553&fn=18%20To%20His%20Coy%20Mistress%20by%20Andrew%20Mar.mp3&wshc_tag=0&wsts_tag=54146eb3&wsid_tag=733c3c4f&wsiphost=ipdbm" controls></audio>
+-->
+<br><br>
+<p><a href="http://jackiekuo.com">返回JackieKuo.com</a></p>
+</body>
+</html>
