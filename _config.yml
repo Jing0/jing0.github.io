@@ -23,17 +23,5 @@ comments : true
 #  disqus :
 #    short_name : jing0sblog
 
-analytics :
-  provider : google 
-  google : 
-    tracking_id : 'UA-47183800-1'
-  getclicky :
-    site_id : 
-  mixpanel :
-    token : '_MIXPANEL_TOKEN_'
-  piwik :
-    baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-    idsite : '1'                   # the id of the site on Piwik
-
 # Build settings
 markdown: kramdown
