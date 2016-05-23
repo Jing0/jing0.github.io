@@ -18,10 +18,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jackiekuo.com" # the base hostname & protocol for your site
 github_username:  jing0
 
-comments :
-  provider : disqus
-  disqus :
-    short_name : jing0sblog
+comments : true
+#  provider : disqus
+#  disqus :
+#    short_name : jing0sblog
 
 analytics :
   provider : google 
