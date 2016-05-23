@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Eclipse提速记录
+title: "Eclipse提速记录"
 description: 给Eclipse加速，启动加速
 keywords: eclipse,java
-category: Code
+category: code
 tagline: --read & think
 tags : [eclipse,java]
 ---
-{% include JB/setup %}
+
 
 > eclipse的启动速度一直不怎么的，Mac OS X上的好像更慢，愧对我给它的“最喜欢的IDE”称号。
 > 下面是给eclipse提速的笔记。
@@ -28,13 +28,13 @@ tags : [eclipse,java]
 
   效果：启动时间－4S
 
-#####2.优化项目：加载项（Preference→General→Startup and Shutdown）
+##### 2.优化项目：加载项（Preference→General→Startup and Shutdown）
 
 `取消全部加载项`
 
 效果：启动时间－1～2S
 
-#####优化后启动时间：8～9S
+##### 优化后启动时间：8～9S
 
 最后附上我的eclipse.ini以供参考。
 

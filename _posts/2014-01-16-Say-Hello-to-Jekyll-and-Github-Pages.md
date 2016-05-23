@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Say Hello to Jekyll &amp; GitHub Pages!
-category: Think
+title: "Say Hello to Jekyll &amp; GitHub Pages!"
+category: think
 tagline: --read & think
 tags : [Jekyll,GitHub,Pages]
 ---
-{% include JB/setup %}
+
 
 阮一峰曾在一篇博文里写，
 

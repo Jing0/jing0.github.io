@@ -1,13 +1,12 @@
 ---
 layout: post
-title: 从Emacs Doctor到ELIZA，看早期的人工智能
+title: "从Emacs Doctor到ELIZA，看早期的人工智能"
 description: 从Emacs Doctor到Eliza，分析早期的人工智能与Lisp
 keywords: Emacs,Eliza,Lisp,AI，人工智能,Mac,Terminal
-category: Code
+category: code
 tagline: --read & think
 tags : [Algorithm,Mac,terminal,Emacs,Trivia]
 ---
-{% include JB/setup %}
 
 在Mac中学习一些Terminal命令时尝试过Emacs Doctor，当时只知道这个可以和机器聊天小程序是集成在Emacs中的。最近发现Emac Doctor背后是一个早期的人工智能项目——ELIZA，仔细研究了一下，来头不小。
 

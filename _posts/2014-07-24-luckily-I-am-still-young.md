@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 幸亏我还年轻
+title: "幸亏我还年轻"
 description: 
 keywords:  年轻,计算机,成功,人生
-category: Think
+category: think
 tagline: --read & think
 tags: [Think,Life,ACM]
 ---
-{% include JB/setup %}
+
 
 刚懂事时——那些有钱的好快乐啊，我也要有钱！
 

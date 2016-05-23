@@ -1,21 +1,21 @@
 ---
 layout: post
-title: 如何优雅地使用Vim？(美化篇)
+title: "如何优雅地使用Vim？(美化篇)"
 description: 如何优雅地使用Vim?关于Vim的美化
 keywords: Vim,Sublime text,Atom,Plugin,Solarized,Powerline,icon,美化
-category: Code
+category: code
 tagline: --read & think
 tags: [Vim,Code,Trivia]
 ---
-{% include JB/setup %}
 
-####接上篇[如何优雅地使用Vim？(趣味篇)](http://jackiekuo.com/code/2014/05/02/use-vim-the-fun-way/)
+
+#### 接上篇[如何优雅地使用Vim？(趣味篇)](http://jackiekuo.com/code/2014/05/02/use-vim-the-fun-way/)
 
 Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党员都招架不住，拜倒在其<del>石榴裙</del>下。一时间，党心大乱。
 
 淡定，淡定。纵使Sublime Text和Atom能以其华丽的外表蛊惑众人，不也只是其配色方案和一些组件的功劳么？给Vim美化一下不就行了吗？
 
-###Solarized
+### Solarized
 
 说实话，Vim自带的配色方案真没几个顺眼的。
 
@@ -43,7 +43,7 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 **另外可以尝试一下[Tomorrow Theme](https://github.com/chriskempson/vim-tomorrow-theme)，也很不错*
 
-###Powerline
+### Powerline
 
 这是一个美化状态栏的插件，能显示地址、编码、进度等，值得推荐。
 
@@ -55,7 +55,7 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 配置起来稍微有点麻烦，不过官方文档说明得很详细，这里就不多说了。
 
-###图标
+### 图标
 
 个人感觉Vim本身的图标还可以。但对于那些喜欢折腾图标的人，这里有几个感觉还可以的图标设计，以供继续折腾。
 
@@ -72,10 +72,10 @@ Sublime Text和Atom对Vim党内成员的不断引诱，使很多忠实的老党�
 
 [点击查看](https://dribbble.com/shots/528514-Vim-replacement-icon?list=searches&tag=vim&offset=16)
 
-###Update2014-05-07
+### Update2014-05-07
 
 [Vim Color Scheme Editor](http://lilydjwg.vim-cn.com/articles/vim-color-modified.html)是一个可以在线定义Vim主题的网站，简单方便。如果找不到喜欢的主题，自己做一个就可以啦！
 
 [Sweyla's Color Theme Generator](http://sweyla.com/themes/)则要更强大一些，不但可以针对特定语言（C++、HTML、Ruby、Python）调整，还可以生成TextMate、Emacs、Vim的主题文件。
 
-####见下篇[如何优雅地使用Vim？(实用篇)](http://jackiekuo.com/code/2014/05/07/use-vim-the-pragmatic-way/)
+#### 见下篇[如何优雅地使用Vim？(实用篇)](http://jackiekuo.com/code/2014/05/07/use-vim-the-pragmatic-way/)

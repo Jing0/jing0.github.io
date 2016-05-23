@@ -1,13 +1,13 @@
 ---
 layout: post
-title: C语言版本的Eliza与Hacker Go
+title: "C语言版本的Eliza与Hacker Go"
 description: 用C语言重写Eliza。Eliza是早期的一项人工智能项目，能通过脚本理解简单的自然语言，并能产生类似人类的互动。
 keywords: Eliza,C,Chatbot,Code,代码,hacker
-category: Code
+category: code
 tagline: --read & think
 tags: [Code,Emacs,C]
 ---
-{% include JB/setup %}
+
 
 去年曾用两篇博文介绍过Chatbot--Eliza，[从Emacs Doctor到ELIZA，看早期的人工智能](http://jackiekuo.com/code/2013/12/01/eliza-and-the-earliest-ai/)以及对lisp版本Eliza的简单分析[ELIZA是如何思考的——Emacs Doctor代码的简单分析](http://jackiekuo.com/code/2013/12/01/how-eliza-works/)。
 

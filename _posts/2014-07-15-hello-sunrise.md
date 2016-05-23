@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 你好哇，日出
+title: "你好哇，日出"
 description: 听到过一个有趣的比喻，说程序员就像吸血鬼，总是在夜间活动，见不得阳光。但是我想，就算是吸血鬼，在“工作”了一个晚上之后，看到饱含希望的日出，也会心生喜悦、禁不住和它打个招呼的吧！
 keywords: 日出,程序员,生活
-category: Life
+category: life
 tagline: --read & think
 tags: [Life]
 ---
-{% include JB/setup %}
+
 
 现在是15号凌晨1点。
 

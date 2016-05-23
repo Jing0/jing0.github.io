@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mac OS X下Go语言环境搭建过程及遇见的一些问题</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jackiekuo.com/code/2013/11/26/golang-setup-on-Mac.html">
+  <link rel="alternate" type="application/rss+xml" title="Jing0 's blog" href="http://jackiekuo.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jing0 's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Mac OS X下Go语言环境搭建过程及遇见的一些问题</h1>
+    <p class="post-meta"><time datetime="2013-11-26T00:00:00+08:00" itemprop="datePublished">Nov 26, 2013</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="http://pic.yupoo.com/jok3r/Dlb48L3V/medish.jpg?resize=200%2C120" alt="image" /></p>
+
+<p>一直对Google的Go很好奇，最近看到Go的开发团队专门做了<a href="https://code.google.com/p/go-tour">Go tour</a>来帮助开发者学习，就决定尝试下。</p>
+
+<p>本来感觉一个很简单的环境搭建却出现了几个意想不到的问题，所以有必要记录一下。</p>
+
+<h2 id="section">一.安装</h2>
+
+<p>Go的官网上有<a href="http://golang.org/doc/install/">安装指南</a>，看了下决定用brew下载安装，简单方便。</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ brew install go</p>
+
+<p>安装后输入go可以查看一些命令的使用。</p>
+
+<p>看下版本</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ go version</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">go version go1.1.2 darwin/amd64</p>
+
+<p>安装包会自动安装在 /usr/local/Cellar/go目录下。</p>
+
+<h2 id="section-1">二.配置</h2>
+
+<p>安装好后，在<code class="highlighter-rouge">/usr/local/Cellar/go/1.1.2/libexec/misc</code>中，可以看到有很多编辑器版本, 在其下可以自动配置不同编辑器来使用Go开发。</p>
+
+<p>###配置$GOPATH和$GOROOT</p>
+
+<p>输入以<code class="highlighter-rouge">go env</code>命令来查看环境变量</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ go env</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOARCH="amd64"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOBIN=""</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOCHAR="6"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOEXE=""</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOHOSTARCH="amd64"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOHOSTOS="darwin"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOOS="darwin"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOPATH="/Users/Jackie/gocode"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GORACE=""</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOROOT="/usr/local/Cellar/go/1.1.2/libexec"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOTOOLDIR="/usr/local/Cellar/go/1.1.2/libexec/pkg/tool/darwin_amd64"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">CC="gcc"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">GOGCCFLAGS="-g -O2 -fPIC -m64 -pthread -fno-common"</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">CGO_ENABLED="1"</p>
+
+<p><code class="highlighter-rouge">$GOROOT</code>是go的安装路径，配置后可直接在终端执行相关命令。注：Go 1.0之后安装包自带的Go tool会自动设置。</p>
+
+<p><code class="highlighter-rouge">$GOPATH</code>用来设置workspaces，即工作路径，可以设置多个。在Go  1.1之后被强制要求设置。具体见官方文档GoLang.org</p>
+
+<p>关于这个<code class="highlighter-rouge">$GOPATH</code>,我安装时报错不断，真是让人头痛。</p>
+
+<p>开始一直提示”<code class="highlighter-rouge">$GOPATH not set.</code>“，尝试了Stack Overflow上所有的方法，都没用，最后索性不弄了。没想到第二次打开又可以了，难道必须要重启？</p>
+
+<p>后来就是在安装gotour时出现的一个问题，下面再说。</p>
+
+<h2 id="gotour">三.安装Gotour</h2>
+
+<p>首先需要hg(Mercurial)，这是一个跨平台的分布式版本控制软件。安装后可以使用<code class="highlighter-rouge">hg</code>等命令。</p>
+
+<p>当然，我还是用brew安装</p>
+
+<p><span style="color: #f5f5f5; font-family: Menlo; font-size: 13px; background-color: #000000;">$ brew install hg</span> </p>
+
+<p>安装成功后后输入<code class="highlighter-rouge">hg</code>命令会出现Mercurial的相关使用信息。</p>
+
+<p>接下来需要建立$GOPATH所需要的目录，下面是官方给出的一个例子</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>GOPATH=/home/user/gocode
+ 
+/home/user/gocode/
+    src/
+        foo/
+            bar/               (go code in package bar)
+                x.go
+            quux/              (go code in package main)
+                y.go
+    bin/
+        quux                   (installed command)
+    pkg/
+        linux_amd64/
+            foo/
+                bar.a          (installed package object) 按照官方文档，这时在终端下使用
+</code></pre>
+</div>
+
+<p><span style="color: #f5f5f5; font-family: Menlo; font-size: 13px; background-color: #000000;">$ sudo go get code.google.com/p/go-tour/gotour</span> </p>
+
+<p>就可以安装Go tour了</p>
+
+<p>如果安装中文的话地址改为</p>
+
+<p><span style="color: #f5f5f5; font-family: Menlo; font-size: 13px; background-color: #000000;">$ sudo go get bitbucket.org/mikespook/go-tour-zh/gotour</span></p>
+
+<p><em>注</em>：中文地址我始终不能下，貌似被qiang了。</p>
+
+<p>不过我安装的时候又出现了问题，</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">abort: error: EOF occurred in violation of protocol  </p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">package code.google.com/p/go-tour/gotour: exit status 255 </p>
+
+<p>反复尝试无果后，决定用<code class="highlighter-rouge">hg</code>直接手动下载</p>
+
+<p><span style="color: #f5f5f5; font-family: Menlo; font-size: 13px; background-color: #000000;">$ hg clone https://code.google.com/p/go-tour/</span></p>
+
+<p>再复制</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">cp -r go-tour $GOPATH/src/pkg/code.google.com/p/go-tour/gotour</p>
+
+<p>再安装</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">cd $GOPATH/src/pkg/code.google.com/p/go-tour/gotour</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">go install ./</p>
+
+<p>这时gotour就安装到<code class="highlighter-rouge">$GOPATH/bin</code>目录下了</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/Dlb47kTH/medish.jpg" alt="gotour" /></p>
+
+<p>进入这个目录打开它就行了</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ ls $GOPATH/bin</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ gotour</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">2013/11/26 15:48:56 Serving content from /Users/Jackie/gocode/src/code.google.com/p/go-tour</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">2013/11/26 15:48:56 A browser window should open. If not, please visit http://127.0.0.1:3999</p>
+
+<p>这时会自动打开浏览器，如图</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/Dlb48CVp/medish.jpg" alt="gotour" /></p>
+
+<p>最后终于弄好了，不过不能每次都进这个目录再输入命令吧。</p>
+
+<p>再配置一下bashrc就可以了。</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ sudo vi /etc/bashrc</p>
+
+<p>然后在下面加上</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">#Go tour</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">alias gotour='/Users/Jackie/gocode/bin/gotour'</p>
+
+<p>这样就完美了。</p>
+
+<p>大功告成，赶快体验一下。</p>
+
+<p>写的不好，如有错误欢迎指出。</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jing0 's blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jing0 's blog</li>
+          <li><a href="mailto:j.kuo2012@gmail.com">j.kuo2012@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jing0"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jing0</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Jing0's blog.I share coding,reading,music and some thoughts about life here.
+</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>&copy; 2016 Jackie Kuo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a><br>All contents on this site are released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+  </body>
+
+</html>

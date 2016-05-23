@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 面朝代码，春暖花开
+title: "面朝代码，春暖花开"
 description: 小破诗一首
 keywords: 
-catagory: Life
+catagory: life
 tags: [Code,Life]
 ---
-{% include JB/setup %}
+
 
 从今天起，做一个幸福的Coder。
 

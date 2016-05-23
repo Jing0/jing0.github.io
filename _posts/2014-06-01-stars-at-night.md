@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 夜空中最亮的星
+title: "夜空中最亮的星"
 description: 一首很喜欢的歌
 keywords: 夜空,孤独,朋友,奋斗
-category: Music
+category: music
 tagline: --read & think
 tags: [Music,Life]
 ---
-{% include JB/setup %}
+
 
 <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1770201852&mode=js"></script>
 

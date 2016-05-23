@@ -1,13 +1,13 @@
 ---
 layout: post
-title: All That Is Nonsense
+title: "All That Is Nonsense"
 description: I am tired,but i still want to fight
 keywords: ACM,tired,success,saying
-category: Life
+category: life
 tagline: --read & think
 tags: [Life]
 ---
-{% include JB/setup %}
+
 
 1. The earlier,the better.And sometimes that can be equal to hard work.
 

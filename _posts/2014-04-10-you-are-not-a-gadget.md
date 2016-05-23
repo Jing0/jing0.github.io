@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 不要被互联网所改变
-category: Book
+title: "不要被互联网所改变"
+category: book
 tagline: --read & think
 tags : [Book,Think,Life]
 ---
-{% include JB/setup %}
+
 
 >不要被互联网所改变，要记住，你是一个人。
 
@@ -52,5 +52,5 @@ tags : [Book,Think,Life]
 
 最后，保持清醒，探索未知！
 
-###Update
+### Update
 如果看了一本书，不记录很快就会忘记它的内容，所以以后要把[看过的书](http://jackiekuo.com/elseworld/#books)及时总结一下发出来。

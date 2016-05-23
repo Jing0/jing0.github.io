@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>从Emacs Doctor到ELIZA，看早期的人工智能</title>
+  <meta name="description" content="在Mac中学习一些Terminal命令时尝试过Emacs Doctor，当时只知道这个可以和机器聊天小程序是集成在Emacs中的。最近发现Emac Doctor背后是一个早期的人工智能项目——ELIZA，仔细研究了一下，来头不小。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jackiekuo.com/code/2013/12/01/eliza-and-the-earliest-ai.html">
+  <link rel="alternate" type="application/rss+xml" title="Jing0 's blog" href="http://jackiekuo.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jing0 's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">从Emacs Doctor到ELIZA，看早期的人工智能</h1>
+    <p class="post-meta"><time datetime="2013-12-01T00:00:00+08:00" itemprop="datePublished">Dec 1, 2013</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>在Mac中学习一些Terminal命令时尝试过Emacs Doctor，当时只知道这个可以和机器聊天小程序是集成在Emacs中的。最近发现Emac Doctor背后是一个早期的人工智能项目——ELIZA，仔细研究了一下，来头不小。</p>
+
+<h3 id="emacs-doctor">1.Emacs Doctor长什么样？</h3>
+
+<p>如下</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/DlYAuMoy/medish.jpg?resize=600%2C459" alt="image" /></p>
+
+<h3 id="section">2.如何找到她？</h3>
+
+<p>Emacs中输入“xdoctor”即可。Terminal中需要先输入“Emacs”，再“shift＋esc”。</p>
+
+<h3 id="doctor">3.这个Doctor怎么用？</h3>
+
+<p>找到Doctor后，输入你的问题，按两下“Return”，Doctor就会回答你的问题。</p>
+
+<p>不过貌似这个精神治疗师的回答会让你更加神经。</p>
+
+<p>下面是我和她的一段对话。</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/DlYAuZHv/medish.jpg?resize=600%2C459" alt="image" /></p>
+
+<h3 id="emacs-doctor-1">4.Emacs Doctor到底什么来头？</h3>
+
+<p>说到Emacs Doctor，就不得不说ELIZA（<a href="http://en.wikipedia.org/wiki/ELIZA">维基百科-ELIZA</a>）。</p>
+
+<p>Eliza是早期的一项人工智能项目，被MIT的41岁计算机科学家Joseph Weizenbaum在1964-1966年开发出来，并以萧伯纳的戏剧作品<a href="http://zh.wikipedia.org/wiki/%E8%B3%A3%E8%8A%B1%E5%A5%B3_(%E6%88%B2%E5%8A%87)">《卖花女》</a>（不是《茶花女》）中的主人公的名字命名（因此本文用“她”来称呼）。ELIZA的智能之处在于她能通过脚本理解简单的自然语言，并能产生类似人类的互动。而其中最著名的脚本便是模拟<a href="http://en.wikipedia.org/wiki/Rogerian_psychotherapy">罗吉斯心理治疗师</a>的Doctor。GNU Emacs Doctor则是这个脚本的另一个版本。</p>
+
+<p>ELIZA在1966年被发布出来以后，引起了不小的轰动，与ELIZA“聊天”的用户有时会误以为自己是在和人类，而不是和一个程序交谈。但是实际上ELIZA根本不知道自己在说什么。它只是按固定套路作答，或者用符合语法的方式将问题复述一遍。甚至有一段时间，人们认为这种思路可以做出通过图灵测试的程序。</p>
+
+<p>Weizenbaum很吃惊很多用户会忽视自己面对的是一个机器，而对ELIZA敞开心扉（这种情况也叫做<a href="http://en.wikipedia.org/wiki/ELIZA_effect">ELIZA effect</a>，ELIZA效应）。虽然Weizenbaum创造的ELIZA使他在人工智能领域成就斐然，但他并不认为AI能与人类的情感和智慧相比。1976年Weizenbaum出版著作《计算机的力量与人类的推理》，书中表示人工智能的滥用可能损害人类生命的价值，并对计算机和人类的关系进行了探讨。</p>
+
+<p>关于这段历史，可以看看<a href="http://lz.book.sohu.com/chapter-19176-114681445.html">《面对互联网：我们已经丧失了人性》</a>。查到有两部关于Joseph Weizenbaum和ELIZA的电影<a href="http://movie.mtime.com/111521/">《Weizenbaum. Rebel at Work.》</a>和<a href="http://movie.mtime.com/138645/">《Plug &amp; Pray》</a>，打算有时间看一下。</p>
+
+<p>Weizenbaum最早是用Lisp写的ELIZA。后来出现了很多其他语言的版本，著名的有Bernie Cosell重写的Lisp版本，Jeff Shrager的BASIC版本，还有就是GNU Emacs中的Emacs Doctor了。</p>
+
+<p>另外，有一个用Perl写的改进版本的ELIZA（<a href="http://search.cpan.org/dist/Chatbot-Eliza/">Chatbox-ELIZA</a>），好像只能装到UNIX内核的机器上，我尝试了下<strong>。ELIZA体验过程及更多请看文章最后“ELIZA体验”。</strong></p>
+
+<p>作为最早的机器智能的体现之一，ELIZA可以说是一个里程碑。不管它有多么简陋，但它是将人－人互动的感觉带到了人机互动上的第一次尝试。</p>
+
+<p>总结一下，ELIZA有以下影响：</p>
+
+<ul>
+  <li>
+    <p>ChatterBot：ELIZA可以说是第一个Chatterbot——聊天机器人，你现在依然可以在很多Chatterbot中发现ELIZA的影子。不得不说的是，两年前Apple的Siri发布时，ELIZA也被再次请出，用来吐槽“智能”的Siri。</p>
+  </li>
+  <li>
+    <p>Game：这一点很容易理解，由于ELIZA具有很强的互动性，她对游戏领域的影响是深远的，特别对早期的游戏。一些角色扮演类游戏和文字游戏很大程度上借鉴了ELIZA的设计，具体看这里。2011年的游戏黑客入侵：人类革命（Deus Ex: Human Revolution）也在向ELIZA致敬。游戏中的一个伪装成记者的反派Eliza Cassan最后被主角击杀，并发现她是一个高度智能的AI。</p>
+  </li>
+  <li>
+    <p>Smart Assistant:虽然Google Now和Siri等一些智能语音助理能完成各种任务，甚至对它们给予的输入是完全的自然语言，但是它们仍可以判断意思并给出回答。维基百科上说Siri中有个很有意思的彩蛋（前提是语言设置为en），问Siri：“Who would you vote for-Mitt Romney or Barack Obama?”,Siri回答：“I can’t vote.But if I did,I would vote for ELIZA.She knows all.”或者问Siri：“Tell me a story.”最后她会给你讲她是如何被选中给Apple工作的，然后故事中会提及ELIZA。当然你也可以向Siri问ELIZA，然后她会仔细地向你介绍。</p>
+  </li>
+  <li>
+    <p>etc.</p>
+  </li>
+</ul>
+
+<p>Emacs Doctor源代码中这样介绍自己</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>The single entry point `doctor', simulates a Rogerian analyst using phrase-production techniques similar to the classic ELIZA demonstration of pseudo-AI.
+</code></pre>
+</div>
+
+<p>Emacs Doctor的脚本是用eLisp语言写的。在Mac中，打开emacs/24.3/Emacs.app/Contents/Resources/lisp/play ，其中的doctor.elc便是Doctor的藏身之处。</p>
+
+<p>Gnu Emacs 20.2.2中Emacs Doctor源代码：<a href="http://www.csee.umbc.edu/courses/471/papers/emacs-doctor.shtml">点击查看</a></p>
+
+<p>写的不好，有错误还请指正。</p>
+
+<h3 id="eliza">Eliza体验</h3>
+
+<p>安装过程：</p>
+
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ cd Chatbot-Eliza-1.04</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ ls</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Chatbotdebug.cgidoctor.txtsimple</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">MANIFESTdeutschnorsksimple.cgi</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Makefile.PLdeutsch.cginorsk.cgitest.pl</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">READMEdeutsch.txtnorsk.txttwobots</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ perl Makefile.pl</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Checking if your kit is complete...</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Looks good</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Writing Makefile for Chatbot</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ make test</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">cp Chatbot/Eliza.pm blib/lib/Chatbot/Eliza.pm</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">PERL_DL_NONLAZY=1 /opt/local/bin/perl "-Iblib/lib" "-Iblib/arch" test.pl</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000; min-height: 15px;"> </p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Attempting to load module...done.  </p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000; min-height: 15px;"> </p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">OK, looks good.</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000; min-height: 15px;"> </p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;"><span style="color: #f5f5f5;">$ make install </span><span style="font-family: Menlo; font-size: 13px;"><span style="color: #ff2800;">在这需要权限才行，sudo就行了</span></span></p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Manifying blib/man3/Chatbot::Eliza.3pm</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">ERROR: Can't create '/opt/local/lib/perl5/site_perl/5.12.4/Chatbot'</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">mkdir /opt/local/lib/perl5/site_perl: Permission denied at /opt/local/lib/perl5/5.12.4/ExtUtils/Install.pm line 494</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000; min-height: 15px;"> </p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;"> at -e line 1</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">make: *** [pure_site_install] Error 13</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">$ sudo make install</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Password:</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Sorry, try again.</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Password:</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Files found in blib/arch: installing files in blib/lib into architecture dependent library tree</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Installing /opt/local/lib/perl5/site_perl/5.12.4/darwin-thread-multi-2level/.DS_Store</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Installing /opt/local/lib/perl5/site_perl/5.12.4/darwin-thread-multi-2level/auto/.DS_Store</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Installing /opt/local/lib/perl5/site_perl/5.12.4/darwin-thread-multi-2level/.DS_Store</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Installing /opt/local/lib/perl5/site_perl/5.12.4/darwin-thread-multi-2level/auto/.DS_Store</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Installing /opt/local/lib/perl5/site_perl/5.12.4/darwin-thread-multi-2level/Chatbot/Eliza.pm</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Installing /opt/local/share/perl5.12/siteman/man3/Chatbot::Eliza.3pm</p>
+<p style="margin: 0px; font-size: 13px; font-family: Menlo; color: #f5f5f5; background-color: #000000;">Appending installation info to /opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/perllocal.pod</p>
+
+<p>这算安装好了。</p>
+
+<p>然后”./simple”运行，尝试一下，本来感觉无聊的过程却发现亮点在最后。。。 感觉这个比Emacs Doctor的回答智能多了！</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/DlYAul52/medish.jpg?resize=600%2C450" alt="image" /></p>
+
+<p>参考资料：</p>
+
+<p><a href="http://marcelgagne.com/content/need-psychiatrist-meet-eliza">Need A Psychiatrist? Meet Eliza</a></p>
+
+<p><a href="http://marcelgagne.com/content/meet-emacs-doctor">Meet The Emacs Doctor</a></p>
+
+<p><a href="http://en.wikipedia.org/wiki/ELIZA">Wikipedia—ELIZA</a></p>
+
+<p><a href="http://en.wikipedia.org/wiki/ELIZA_effect">Wikipedia—ELIZA Effect</a></p>
+
+<p><a href="http://en.wikipedia.org/wiki/Joseph_Weizenbaum">Wikipedia—Joseph Weizenbaum</a></p>
+
+<p><a href="http://www.csee.umbc.edu/courses/471/papers/">CSEE.UMBC.EDU</a></p>
+
+<p><a href="http://lz.book.sohu.com/chapter-19176-114681445.html">面对互联网：我们已经丧失了人性</a></p>
+
+<p>###Update2014-04-12</p>
+
+<p>自己写的一个C版本的Eliza，点击查看<a href="http://jackiekuo.com/code/2014/04/12/recreate-eliza-and-hacker-go-with-c/">C语言版本的Eliza与Hacker Go</a>。</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jing0 's blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jing0 's blog</li>
+          <li><a href="mailto:j.kuo2012@gmail.com">j.kuo2012@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jing0"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jing0</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Jing0's blog.I share coding,reading,music and some thoughts about life here.
+</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>&copy; 2016 Jackie Kuo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a><br>All contents on this site are released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+  </body>
+
+</html>

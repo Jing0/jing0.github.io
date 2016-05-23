@@ -1,17 +1,16 @@
 ---
 layout: post
-title: 我们应该如何对待技术信仰？
+title: "我们应该如何对待技术信仰？"
 description: I Love Vim,I Love Chrome,I Love GitHub
 keywords: glory,programmer,religion,fatith
-category: Think
+category: think
 tagline: --read & think
 tags: [Life,Think]
 ---
-{% include JB/setup %}
 
 >**当你发现自己有了技术信仰时，不要尝试去磨灭它，而是去利用它！利用它带给自己的动力！**
 
-###程序员的荣耀
+### 程序员的荣耀
 
 1. 编程语言战争：认为自己所用的语言是最好的。
 2. 编辑器的圣战：Vim或Emacs党派不断向对方发起攻击。
@@ -42,7 +41,7 @@ tags: [Life,Think]
 
 所以，大多数人都会建议，不要把热情变成信仰。
 
-###信仰的力量
+### 信仰的力量
 
 那么是不是说信仰没有一点好处呢？当然不是。
 
@@ -58,7 +57,7 @@ tags: [Life,Think]
 
 那么，到底应该怎么对待各种技术信仰呢？
 
-###我与我的信仰
+### 我与我的信仰
 
 其实我并不赞成消除自己的信仰。
 

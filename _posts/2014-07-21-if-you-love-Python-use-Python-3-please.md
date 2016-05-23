@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 如果你爱 Python，请用 Python 3
+title: "如果你爱 Python，请用 Python 3"
 description: 请不要推荐别人用Python 2
 keywords: Python,Windows,习惯,改变,Swift,Apple,Objective-C,XP
-category: Code
+category: code
 tagline: --read & think
 tags: [Complaint,Python,Code,Think]
 ---
-{% include JB/setup %}
+
 
 刚才在知乎上又看到关于应该使用 Python 2 还是 Python 3 的问题，一个想法在脑子里闪过，我突然意识到，自己差点害了这么一门优秀的语言。
 

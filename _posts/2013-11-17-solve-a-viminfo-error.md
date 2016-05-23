@@ -1,13 +1,13 @@
 ---
 layout: post
-title: .viminfo出错的解决方法
+title: ".viminfo出错的解决方法"
 description: .viminfo出错的解决方法
 keywords: Vim,viminfo,terminal
-category: Code
+category: code
 tagline: --read & think
 tags : [Linux,Mac,Vim]
 ---
-{% include JB/setup %}
+
 
 今天在terminal下打开vim时出现一行错误代码，如下：
 

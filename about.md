@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About Me
-header: About Me
+title: About
+permalink: /about/
 ---
-{% include JB/setup %}
 
 I'm **Jackie Kuo**, a student at Zhengzhou University majoring in Computer Science and Technology.
 

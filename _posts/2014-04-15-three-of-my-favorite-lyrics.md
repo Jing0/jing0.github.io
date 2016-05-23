@@ -1,17 +1,17 @@
 ---
 layout: post
-title: 只是三首喜欢的歌词而已
+title: "只是三首喜欢的歌词而已"
 description: 三首喜欢的歌，Creep，Imagine和The Times They Are A-Changin的歌词，感谢这些伟大的诗人
 keywords: Music,Creep,Imagine,The Times They Are A-Changin,Bob Dylan,Lennon,歌词
-category: Music
+category: music
 tagline: --read & think
 tags: [Music]
 ---
-{% include JB/setup %}
 
-##CREEP 
 
-###by Radiohead
+## CREEP 
+
+### by Radiohead
 
 *When you were here before*
 
@@ -101,9 +101,9 @@ tags: [Music]
 
 *I don't belong here*
 
-##IMAGINE
+## IMAGINE
 
-###by John Lennon
+### by John Lennon
 
 *Imagine there's no heaven*
 
@@ -165,9 +165,9 @@ tags: [Music]
 
 *And the world will live as one*
 
-##The Times They Are A-Changin
+## The Times They Are A-Changin
 
-###by Bob Dylan
+### by Bob Dylan
 
 *Come gather ’round people*
 
@@ -268,6 +268,6 @@ tags: [Music]
 *For the times they are a-changin’*
 
 
-###NOTE:
+### NOTE:
 
 * Creep 也可以尝试 Scala & Kolacny Brothers 合唱版

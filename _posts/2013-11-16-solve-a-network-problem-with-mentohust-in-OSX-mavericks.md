@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 解决升级到OSX Mavericks后锐捷客户端无法使用的问题
+title: "解决升级到OSX Mavericks后锐捷客户端无法使用的问题"
 description: 解决升级到OSX Mavericks后锐捷客户端无法使用的问题
 keywords: Mac,App,锐捷，ruijie,MentoHust,Mavericks
-category: Mac
+category: mac
 tagline: --read & think
 tags : [Mac,App]
 ---
-{% include JB/setup %}
+
 
 学校校园网用的锐捷，升级到OS X Mavericks后会出现锐捷客户端无法连接到校园网的问题，如图，
 

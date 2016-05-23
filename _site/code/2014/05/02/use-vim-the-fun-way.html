@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>如何优雅地使用Vim？(趣味篇)</title>
+  <meta name="description" content="话说2014年，刚满22岁的Vim却不断受到一些乳臭未干的小屁孩的挑战：Sublime Text以Sexy自称，而不满一岁的Atom，却顶着editor for the 21st century的荣耀光环。这些Sexy和Modern的不和谐文化，不断挑衅着Vim以及破坏Vim党派内的风气。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jackiekuo.com/code/2014/05/02/use-vim-the-fun-way.html">
+  <link rel="alternate" type="application/rss+xml" title="Jing0 's blog" href="http://jackiekuo.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jing0 's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">如何优雅地使用Vim？(趣味篇)</h1>
+    <p class="post-meta"><time datetime="2014-05-02T00:00:00+08:00" itemprop="datePublished">May 2, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>话说2014年，刚满22岁的Vim却不断受到一些乳臭未干的小屁孩的挑战：Sublime Text以<code class="highlighter-rouge">Sexy</code>自称，而不满一岁的Atom，却顶着<code class="highlighter-rouge">editor for the 21st century</code>的荣耀光环。这些<code class="highlighter-rouge">Sexy</code>和<code class="highlighter-rouge">Modern</code>的不和谐文化，不断挑衅着Vim以及破坏Vim党派内的风气。</p>
+
+<p>废话完毕！Vim强大的插件岂是黄毛小儿所能比的？下面的一些插件教你如何优雅(<code class="highlighter-rouge">echo "0000000: e8a3 85e9 80bc 0a" | xxd -r</code>)地使用Vim。</p>
+
+<p>注：Vim插件的安装方式一般为输入<code class="highlighter-rouge">:source &lt;plugin_name&gt;</code>或是直接放到<code class="highlighter-rouge">.vim/plugin/</code>。</p>
+
+<h3 id="matrix">Matrix黑客帝国</h3>
+
+<p><img src="http://jackiekuo.com/images/matrix.gif" alt="matrix.vim" /></p>
+
+<p>是的，这个是模拟《矩阵革命》里经典的字符下落的效果。虽然这只能算是个屏保，不过它确实很酷。安装后，输入<code class="highlighter-rouge">:Matrix</code>就能看到效果。</p>
+
+<p><a href="http://www.vim.org/scripts/script.php?script_id=1189">下载地址</a></p>
+
+<h3 id="tetris">Tetris俄罗斯方块</h3>
+
+<p><img src="http://jackiekuo.com/images/tetris.gif" alt="teris" /></p>
+
+<p>这个还用过多介绍吗？在编辑器中玩史上最伟大的游戏之一，就这一点足以让Sublime Text党和Atom派一边玩儿去了。</p>
+
+<p>游戏玩起来速度有点快，不过可以通过自己修改插件来调整。如何控制下落方向和变形？当然是HJKL了。输入<code class="highlighter-rouge">&lt;Leader&gt;te</code>启动(默认为<code class="highlighter-rouge">\te</code>)。</p>
+
+<p><a href="http://www.vim.org/scripts/script.php?script_id=172">下载地址</a></p>
+
+<h3 id="sudoku">Sudoku数独</h3>
+
+<p><img src="http://pic.yupoo.com/jok3r/DJ6Eny3y/medish.jpg" alt="sudoku" /></p>
+
+<p>数独是我最喜欢的游戏了。虽然在Vim里玩起来不是太爽，但为了<code class="highlighter-rouge">优雅</code>，还是可以装一下的。</p>
+
+<p>输入<code class="highlighter-rouge">SudokuEasy</code>、<code class="highlighter-rouge">SudokuMedium</code>、<code class="highlighter-rouge">SudokuHard</code>或<code class="highlighter-rouge">SudokuVeryHard</code>可以选择不同难度。</p>
+
+<p><a href="http://www.vim.org/scripts/script.php?script_id=3553">下载地址</a></p>
+
+<h4 id="vimhttpjackiekuocomcode20140506use-vim-the-sexy-way">见下篇<a href="http://jackiekuo.com/code/2014/05/06/use-vim-the-sexy-way/">如何优雅地使用Vim？(美化篇)</a></h4>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jing0 's blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jing0 's blog</li>
+          <li><a href="mailto:j.kuo2012@gmail.com">j.kuo2012@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jing0"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jing0</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Jing0's blog.I share coding,reading,music and some thoughts about life here.
+</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>&copy; 2016 Jackie Kuo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a><br>All contents on this site are released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+  </body>
+
+</html>

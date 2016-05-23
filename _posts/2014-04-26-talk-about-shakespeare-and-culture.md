@@ -1,13 +1,12 @@
 ---
 layout: post
-title: 450年前的莎士比亚与450年后的文化审查
+title: "450年前的莎士比亚与450年后的文化审查"
 description: 读了《哈姆雷特》和《罗密欧与朱丽叶》，以及关于文化的一些思考
 keywords: 审查,莎士比亚,Shakespeare,哈姆雷特,Hamlet
-category: Book
+category: book
 tagline: --read & think
 tags: [Think,Digest,Life,Read,Complaint]
 ---
-{% include JB/setup %}
 
 2014年4月23日是[威廉·莎士比亚](http://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A)诞辰450周年。
 
@@ -66,7 +65,7 @@ Coursera上的公开课老师也很无奈啊！
 
 这次，Big brother，你做得真有点过了。
 
-###Digest——《哈姆雷特》书摘
+### Digest——《哈姆雷特》书摘
 
 >我们只知道这世界变得老实起来了，那么世界末日快到了
 
@@ -95,7 +94,7 @@ Coursera上的公开课老师也很无奈啊！
 
 >爱像一盏油灯，灯芯烧枯以后，它的火焰也会由微暗而至于消灭。一切事情都不能永远保持良好，因为过度的善反会摧毁它的本身
 
-###Digest——《罗密欧与朱丽叶》书摘
+### Digest——《罗密欧与朱丽叶》书摘
 
 >我只有一个铅一样重的灵魂，把我的身体紧紧地钉在地上，使我的脚步不能移动。
 

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Say Hello to Jekyll &amp;amp; GitHub Pages!</title>
+  <meta name="description" content="阮一峰曾在一篇博文里写，">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jackiekuo.com/think/2014/01/16/say-hello-to-Jekyll-and-Github-Pages.html">
+  <link rel="alternate" type="application/rss+xml" title="Jing0 's blog" href="http://jackiekuo.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jing0 's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Say Hello to Jekyll &amp; GitHub Pages!</h1>
+    <p class="post-meta"><time datetime="2014-01-16T00:00:00+08:00" itemprop="datePublished">Jan 16, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>阮一峰曾在一篇博文里写，</p>
+
+<blockquote>
+  <p>喜欢写Blog的人，会经历三个阶段。
+第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
+第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
+第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</p>
+</blockquote>
+
+<p>我也尝试过不少博客，高一高二主要用新浪博客（因为韩寒），中间也尝试过CSDN。虽然它们用户很多，很受大众欢迎，但它们都存在一些问题，当你复制引用一段文字时，它会自动给你加上一些HTML标签。因为受不了它们提供的令人抓狂的网页编辑器，我会先在本地写好，再粘贴到网页中去，因此我有时需要编辑两次甚至更多次。另外就是这些服务都不自由，不是说言论自由，而是界面、样式都是千篇一律。</p>
+
+<p>到高三时，看着网上高手的教程，我也用WordPress和免费主机搭建了一个博客，也写了一些现在看起来可笑的东西放上去（不知道一年后，看现在写的东西是不是同样的感觉）。</p>
+
+<p>到上了大学，一个星期五晚上不知道是不是吃饱了撑的，花了几个小时找个了国外主机又做了<a href="http://jok3r.ueuo.com">一个</a>。当时感觉还不错，主机每月流量几乎用不完，访问速度比原来找的快多了，东西想怎么写就怎么写，还送个免费的域名，有时还可以做些有趣的实验放上去。不过既然是免费的，就肯定有缺点，后来发现这域名其他学校都不能访问，回到家也不行。好吧，肯定是主机服务商名声太差了。发现了一个缺点，你就会去找其他缺点。绑定域名有限制不说，ping一下，有时响应时间竟超过700ms！还有WordPress有时也让人难以忍受，而且每月一次的博客备份在不稳定的网络成了沉重的负担。WordPress配合这主机就像一个八九十岁的老头拄着拐棍儿参加马拉松一样，随便装几个插件就等于把他的拐棍儿也给没收了。</p>
+
+<p>后来听说OpenShift不错，不过频繁地被qiang还是让我放弃了。然后，我就看到了GitHub Pages，速度当然没问题，流量和空间更是无限，东西都在GitHub上还用备份？！而且最重要的是，暂时不用担心被qiang的问题。好吧，谁也不能保证GitHub会在瓷器国的魔爪下永存。</p>
+
+<p>使用GitHub Pages的blog一般采用Jekyll搭建，这是<a href="https://github.com/mojombo">GitHub员工mojombo</a>写的静态站点生成器，所以访问速度够快，并且可以采用Markdown等标记语言来编写，简单高效。这是一种真正让你专注于blog的组合，你所需要的只是git和一个编辑器。</p>
+
+<p>不过用gh-pages和Jekyll依然存在一些问题：</p>
+
+<ul>
+  <li>配置起来实在够麻烦。先不说翻来覆去的git命令，稍微一不注意就会出现一些error。Jekyll-Bootstrap官方页面给的步骤我试了好几次也没成功，最后用了笨方法：在新建repo的setting里生成Page，然后把下载的Jekyll同步上去。</li>
+  <li>Markdown难以满足需求。虽然说Markdown有时简单方便到极致，但正是因为它的简单，导致了一些本来很简单的东西需要很复杂的方式来实现，最后反而破坏了它的长处。就比如迁移博客时一些文章里的代码片段，用Markdown语法怎么写都不对劲儿，最后把原文章里的HTML代码粘贴上去才可以。HTML标签和Markdown混合？那我还不如直接用HTML呢！</li>
+  <li>有时push以后没反应。有几次repo中已经显示同步成功，但GitHub Pages里过了好长时间才更新，有时甚至一直不更新，索性我就再来一次。不知道是不是个别问题。</li>
+  <li>文章多了影响速度。额，这个等我达到那个程度时再来考虑吧。</li>
+  <li>功能缺失。不能像WordPress自带评论系统。好吧，这个不算问题，反正也没几个人评论。不过一个搜索功能都需要用Google的custom search就不怎么称心了，难道搜索影响了简洁？</li>
+</ul>
+
+<p>花了几个小时总算把东西都移过来了，看着新的Blog，心里舒服多了。</p>
+
+<p>在新的一年换了新的服务，算是给自己的一个礼物吧。</p>
+
+<p>推荐几篇文章：</p>
+
+<ul>
+  <li><a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a></li>
+  <li><a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html">搭建一个免费的，无限流量的Blog—-GitHub Pages和Jekyll入门</a></li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jing0 's blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jing0 's blog</li>
+          <li><a href="mailto:j.kuo2012@gmail.com">j.kuo2012@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jing0"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jing0</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Jing0's blog.I share coding,reading,music and some thoughts about life here.
+</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>&copy; 2016 Jackie Kuo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a><br>All contents on this site are released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+  </body>
+
+</html>

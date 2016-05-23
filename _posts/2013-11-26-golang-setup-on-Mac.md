@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Mac OS X下Go语言环境搭建过程及遇见的一些问题
-category: Code
+title: "Mac OS X下Go语言环境搭建过程及遇见的一些问题"
+category: code
 tagline: --read & think
 tags : [Go,Mac,Brew,terminal]
 ---
-{% include JB/setup %}
 
 ![image](http://pic.yupoo.com/jok3r/Dlb48L3V/medish.jpg?resize=200%2C120)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 进入大学后读的第一本课外历史书
+title: "进入大学后读的第一本课外历史书"
 description: 《极简欧洲史》读后感
 keywords: 读后感,历史,极简欧洲史，大学，读书
 category: Book
@@ -9,7 +9,6 @@ tags: [Book,Think,Life]
 published: true
 ---
 
-{% include JB/setup %}
 
 这是我进入大学后读的第一本课外历史书，初读便爱不释手，这种喜爱即使用“相见恨晚”也难以描述。
 

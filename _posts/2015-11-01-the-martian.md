@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 这次拯救“马特·达蒙”又花了多少钱？
+title: "这次拯救“马特·达蒙”又花了多少钱？"
 description: 《The Martian》读后感
 keywords: the martian,火星救援,马特达蒙，火星，科幻
-category: Book
+category: book
 tagline: "--read & think"
 tags: [Book,Think,Life]
 published: true
 ---
 
-{% include JB/setup %}
+
 
 ![the martian](http://pic.yupoo.com/jok3r/F4jEPFw6/medish.jpg)
 

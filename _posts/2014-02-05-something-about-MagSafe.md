@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 解决MacBook Pro电池无法充电的问题
+title: "解决MacBook Pro电池无法充电的问题"
 category: life
 tagline: --read & think
 tags : [Mac]
 ---
-{% include JB/setup %}
+
 
 今天下雪了。本来应该高兴的，然后就发现MacBook Pro没办法充电了。-_-#
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 找回OS X Mavericks中的网络实用工具
+title: "找回OS X Mavericks中的网络实用工具"
 description: 找回OS X Mavericks 10.9 中隐藏的网络实用工具
 keywords: terminal,utility,mac,网络实用工具
-category: Code
+category: code
 tagline: --read & think
 tags : [Linux,Mac,Vim]
 ---
-{% include JB/setup %}
+
 
 更新到Mac OS X 10.9后，很多人会发现Utilities里没有了Network Utility（网络实用工具）。
 

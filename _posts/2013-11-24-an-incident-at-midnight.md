@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 半夜断网以后
-category: Life
+title: "半夜断网以后"
+category: life
 tagline: --read & think
 tags : [terminal,Complaint]
 ---
-{% include JB/setup %}
+
 
 半夜，正在V2EX上逛。突然断网了。
 

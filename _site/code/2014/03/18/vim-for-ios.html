@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Code On your iPhone－－Vim for iOS</title>
+  <meta name="description" content="某一天，某个菜鸟coder发了一个帖子，“我是一个程序员新手，我是应该用Vi呢还是Emacs呢？”，于是乎，引发了程序员圈界一场旷日持久的战争－－编辑器之战。">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jackiekuo.com/code/2014/03/18/vim-for-ios.html">
+  <link rel="alternate" type="application/rss+xml" title="Jing0 's blog" href="http://jackiekuo.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jing0 's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Code On your iPhone－－Vim for iOS</h1>
+    <p class="post-meta"><time datetime="2014-03-18T00:00:00+08:00" itemprop="datePublished">Mar 18, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>某一天，某个菜鸟coder发了一个帖子，“我是一个程序员新手，我是应该用Vi呢还是Emacs呢？”，于是乎，引发了程序员圈界一场旷日持久的战争－－<a href="http://zh.wikipedia.org/zh-cn/%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%8B%E6%88%98">编辑器之战</a>。</p>
+
+<p>以上纯属虚构。</p>
+
+<p>有句老话说的好：“你可以把马带到水边，但是你不能强迫它使用你最钟爱的的代码编辑器。”:-P虽然我不想加入这场永无休止的Emacser和Vimer的争吵，但不得不承认的是，Vim以其快速、小巧、简单（相对Emacs）的特点为自己赢得了更高的普及率。在移动设备冲击PC生态环境的大环境下，<code class="highlighter-rouge">vi on everywhere</code>的口号也渗透到了iOS。软件开发商Applidium将Vim移植到了iOS平台，在<a href="https://itunes.apple.com/cn/app/vim/id492668168?l=en&amp;mt=8">最新版本</a>中，软件不光为iOS7优化了，还适配iPhone5的屏幕（真是业界良心，VLC for iOS也是他家的）。</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/DCbN4kZg/small.jpg" alt="vimicon" /></p>
+
+<p>Vim for iOS基本上保留了vim所有的功能：支持编辑.vimrc，添加主题（这个感觉很不错，就是用iTunes传来传去有点麻烦），一般的插件都支持，不过大型插件支持的不是很好（就算支持，安装也是个问题）。</p>
+
+<p>另外需要注意的是，因为iOS键盘没有相应的esc键，软件便将反斜杠<code class="highlighter-rouge">\</code>作为了esc键，感觉如果内置一个定制的键盘会好很多。</p>
+
+<p>如果已经下载安装了，你就会发现Vim默认的字体小到了很难辨认的程度。这时就需要编辑.vimrc来调整字体。</p>
+
+<p>输入<code class="highlighter-rouge">vi .vimrc</code>并将<code class="highlighter-rouge">:set guifont=Courier:h16</code>写入文件(将字体改为16px)。</p>
+
+<p>如果想显示行号，可以接着写<code class="highlighter-rouge">set nu</code>。</p>
+
+<p>开启语法高亮，<code class="highlighter-rouge">:syntax enable</code>。</p>
+
+<p>关于配置vimrc，网上有大量资料，可以自行搜索，不再多说。</p>
+
+<p>写完以后，在命令模式输入<code class="highlighter-rouge">:w</code>保存，再重新打开vim，就可以查看刚才写的配置文件的效果了。</p>
+
+<p><img src="http://pic.yupoo.com/jok3r/DCGpvE49/medium.jpg" alt="vimrc" /></p>
+
+<p><img src="http://pic.yupoo.com/jok3r/DCbNl5u0/medium.jpg" alt="vimhelp" /></p>
+
+<p>开发商Applidium将软件的源代码放在了GitHub上，如果感兴趣，可以看看<a href="https://github.com/applidium/Vim">Vim for iOS on GitHub</a>。</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jing0 's blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jing0 's blog</li>
+          <li><a href="mailto:j.kuo2012@gmail.com">j.kuo2012@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jing0"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jing0</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Jing0's blog.I share coding,reading,music and some thoughts about life here.
+</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>&copy; 2016 Jackie Kuo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a><br>All contents on this site are released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+  </body>
+
+</html>

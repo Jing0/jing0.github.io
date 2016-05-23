@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ELIZA是如何思考的——Emacs Doctor代码的简单分析
+title: "ELIZA是如何思考的——Emacs Doctor代码的简单分析"
 description: ELIZA是如何思考的——Emacs Doctor代码的简单分析
 keywords: Emacs,Eliza,Lisp,AI，人工智能,Mac,Terminal
-category: Code
+category: code
 tagline: --read & think
 tags : [Algorithm,Code,Emacs,Trivia]
 ---
-{% include JB/setup %}
+
 
 `版本：Gnu Emacs 20.2.2.`
 

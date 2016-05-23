@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>如何优雅地使用Vim？(实用篇)</title>
+  <meta name="description" content="接上篇如何优雅地使用Vim？(美化篇)">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://jackiekuo.com/code/2014/05/07/use-vim-the-pragmatic-way.html">
+  <link rel="alternate" type="application/rss+xml" title="Jing0 's blog" href="http://jackiekuo.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jing0 's blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">如何优雅地使用Vim？(实用篇)</h1>
+    <p class="post-meta"><time datetime="2014-05-07T00:00:00+08:00" itemprop="datePublished">May 7, 2014</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h4 id="vimhttpjackiekuocomcode20140506use-vim-the-sexy-way">接上篇<a href="http://jackiekuo.com/code/2014/05/06/use-vim-the-sexy-way/">如何优雅地使用Vim？(美化篇)</a></h4>
+
+<p>下面推荐几个我自己常用的Vim插件，这些插件功能强大，非常实用，能极大地提高你的工作效率。如果你还不知道它们的存在的话，还能改变你对Vim的看法！</p>
+
+<p><em>*每个下载页面介绍得都很详细，就不一一介绍如何安装配置了</em></p>
+
+<h3 id="vundlehttpsgithubcomgmarikvundlevim">1.<a href="https://github.com/gmarik/Vundle.vim">Vundle</a></h3>
+
+<p>基于Git的功能强大插件管理工具，有了它插件的安装、更新和卸载就不用操心了。</p>
+
+<h3 id="youcompletemehttpsgithubcomvalloricyoucompleteme">2.<a href="https://github.com/Valloric/YouCompleteMe‎">YouCompleteMe</a></h3>
+
+<p>Google工程师开发的一个支持模糊匹配的自动补全插件，速度很快，支持C、C++、OC、Python等多种主流语言。个人感觉比ctags等同类工具要好一些。</p>
+
+<p><img src="http://jackiekuo.com/images/YCM.gif" alt="YouCompleteMe" /></p>
+
+<h3 id="ctrlphttpsgithubcomkienctrlpvim">3.<a href="https://github.com/kien/ctrlp.vim">ctrlp</a></h3>
+
+<p>用过Sublime Text的就知道，一个Ctrl+P快捷键(Windows)能通过输入关键词快速打开文件，连回车键都不用按。</p>
+
+<p>而插件ctrlp就给Vim实现了同样的功能，而且在同类插件中它性能最好。</p>
+
+<p><img src="http://jackiekuo.com/images/ctrlp.png" alt="ctrlp" /></p>
+
+<h3 id="multiple-cursorshttpsgithubcomterrymavim-multiple-cursors">4.<a href="https://github.com/terryma/vim-multiple-cursors">Multiple Cursors</a></h3>
+
+<p>说到Sublime Text，第一次看到它官网上关于Ctrl+D快捷键(Windows)演示时，我就惊呆了。多光标多行同时编辑，真是太酷了！</p>
+
+<p>而Multiple Cursors这个插件就能使Vim实现同样的功能！而且还支持正则表达式！</p>
+
+<p><img src="http://jackiekuo.com/images/multiple-cursors1.gif" style="width:400px; height:180px;" /></p>
+
+<p><img src="http://jackiekuo.com/images/multiple-cursors2.gif" style="width:400px; height:180px;" /></p>
+
+<h3 id="one-more-thing">One More Thing</h3>
+
+<p>暂时还没写完，有空再更新。</p>
+
+<p>Vim的插件实在是太多了，虽然不乏精品，但也有一些质量很差的插件混杂其中。插件过多不但影响Vim的速度，而且一些插件还存在冲突，环境迁移的时候也会很麻烦。</p>
+
+<p>因此，我的原则就是，尽量不装没用的插件，而且这个原则适用于所有的编辑器（范围还可以再扩大些）。不能因为一些插件功能强大就去装它，还要看自己需要不需要。支持我用的语言吗？我真的需要吗？真的需要吗？真的吗？想好这几个问题，再做决定，才能真正的用好Vim，提高效率。</p>
+
+<p>最后，推荐一个一直更新Vim插件和使用技巧的网站：<a href="http://usevim.com/">usevim</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jing0 's blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Jing0 's blog</li>
+          <li><a href="mailto:j.kuo2012@gmail.com">j.kuo2012@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jing0"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jing0</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is Jing0's blog.I share coding,reading,music and some thoughts about life here.
+</p>
+      </div>
+    </div>
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>&copy; 2016 Jackie Kuo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a><br>All contents on this site are released under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0 International License</a>.
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+
+  </body>
+
+</html>

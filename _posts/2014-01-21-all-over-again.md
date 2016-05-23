@@ -1,11 +1,11 @@
 ---
 layout: post
-title: All over again
-category: Think
+title: "All over again"
+category: think
 tagline: --read & think
 tags : [Blog,Read,Think,Digest]
 ---
-{% include JB/setup %}
+
 
 2013年，我最喜欢的博文就是豌豆荚创始人王俊煜写的[《从头再来》](http://blog.wangjunyu.net/1144)。
 

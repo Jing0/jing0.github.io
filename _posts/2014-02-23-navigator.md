@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "领航者"
-category: "Think"
+category: think
 tagline: --read & think
 tags : [Think]
 ---
